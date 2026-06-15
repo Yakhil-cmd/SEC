@@ -1,0 +1,1 @@
+Let me search the sei-chain codebase for fee claiming mechanisms, beneficiary patterns, and similar state-gating logic.
