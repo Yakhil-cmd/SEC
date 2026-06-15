@@ -1,0 +1,1 @@
+The external report describes a DeFi lending protocol bug (Tapioca's BBLeverage/SGLLeverage) where collateral funds already held by the contract are requested again from the user via `_addCollateral`. I need to check if sei-chain has any analogous double-debit pattern in its own modules.
