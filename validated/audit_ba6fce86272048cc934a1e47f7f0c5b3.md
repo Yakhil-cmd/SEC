@@ -1,0 +1,1 @@
+The external report is about a DeFi lending contract (Beedle/Lender.sol) — a Solidity smart contract, not part of sei-chain itself. Let me verify whether sei-chain has any analogous module with similar missing-validation patterns.
