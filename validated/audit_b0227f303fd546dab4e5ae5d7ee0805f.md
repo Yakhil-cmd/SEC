@@ -1,0 +1,1 @@
+The external report describes a Solidity smart contract issue (missing admin setter for `tokensReceiver` in `ManageableVault.sol`) in the Midas protocol. Let me check if an analogous vulnerability class exists in sei-chain.
