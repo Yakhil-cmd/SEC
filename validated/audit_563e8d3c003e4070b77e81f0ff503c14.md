@@ -1,3 +1,0 @@
-The external report describes a **UI Markdown injection** vulnerability in a JavaScript/TypeScript MetaMask Snap frontend — specifically, user-controlled data passed to a `text()` UI component that renders Markdown, causing the displayed message to differ from what's actually signed.
-
-Let me check if any analogous pattern exists in sei-chain (e.g., RPC message preview, sign message display, or any content rendering path).

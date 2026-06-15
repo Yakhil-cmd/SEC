@@ -1,1 +1,0 @@
-Let me search the sei-chain repository for any voting escrow, reward claiming, or lock time mechanisms that could have a similar vulnerability class.

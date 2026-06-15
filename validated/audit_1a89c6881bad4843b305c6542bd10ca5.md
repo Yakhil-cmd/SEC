@@ -1,1 +1,0 @@
-The external report describes a Solana-specific vulnerability where `get_lamports()` (actual balance) is used instead of calculated rent-exemption. I need to check if an analogous pattern exists in sei-chain — where an account's actual balance is used in place of a calculated minimum fee/reserve, and an attacker can manipulate that by depositing extra funds.

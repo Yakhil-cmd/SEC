@@ -1,1 +1,0 @@
-Let me search for similar auth/origin bypass patterns in sei-chain, particularly in callback mechanisms and authorization checks.

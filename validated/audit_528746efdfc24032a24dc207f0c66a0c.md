@@ -1,1 +1,0 @@
-Let me search the sei-chain codebase for patterns similar to this vulnerability class — specifically authorization checks that use a parameter value before it's been computed/validated.

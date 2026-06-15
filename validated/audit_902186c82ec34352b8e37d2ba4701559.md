@@ -1,1 +1,0 @@
-Let me search the sei-chain codebase for patterns similar to this vulnerability class — specifically around auction/commitment finalization logic, missing state checks, and EVM/Cosmos module interactions.

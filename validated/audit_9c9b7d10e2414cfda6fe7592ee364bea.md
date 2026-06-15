@@ -1,1 +1,0 @@
-I found a direct analog of this vulnerability class in the Sei chain codebase. Let me read the main EVM keeper as well to confirm the full scope.

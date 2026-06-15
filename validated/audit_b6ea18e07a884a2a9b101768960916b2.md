@@ -1,1 +1,0 @@
-Let me search the sei-chain repository for patterns similar to the reported vulnerability — unbounded share/percentage values used in arithmetic that could cause reverts or incorrect behavior.

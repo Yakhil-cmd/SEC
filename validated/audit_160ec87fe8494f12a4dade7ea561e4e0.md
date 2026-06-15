@@ -1,1 +1,0 @@
-Let me search the sei-chain repository for any weight calculation or similar indexing patterns.

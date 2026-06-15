@@ -1,1 +1,0 @@
-The external report is about a **predefined `amount` parameter** in a staking deposit function that can be stale or front-run, causing funds to be misallocated to wrong validators. I need to check if sei-chain has analogous patterns in staking/deposit flows where an attacker-controlled amount or parameter leads to misallocation.

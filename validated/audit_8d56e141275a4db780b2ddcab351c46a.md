@@ -1,3 +1,0 @@
-The original H-13 vulnerability is a DeFi-specific bug: a loop over multiple debt positions (liens) passes the full `paymentAmount` to the first iteration without decrementing it, so all funds go to the first payee. The analogous pattern to check in sei-chain would be any loop that iterates over multiple payment targets while reusing an undecremented total amount.
-
-The closest analog in sei-chain is `executeBatch` in the wasmd precompile:

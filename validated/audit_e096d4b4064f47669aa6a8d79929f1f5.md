@@ -1,1 +1,0 @@
-Let me search the sei-chain codebase for patterns similar to the vulnerability described — specifically fee calculation logic that depends on balance/state comparisons during initialization or migration phases.

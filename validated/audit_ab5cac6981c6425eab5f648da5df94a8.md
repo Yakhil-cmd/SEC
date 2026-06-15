@@ -1,1 +1,0 @@
-The external report describes an inconsistency in Solidity smart contract state update ordering (`permanentLossScaled` computed before vs. after `liquidityIndex` update). I need to check if an analogous pattern exists in `sei-protocol/sei-chain`.

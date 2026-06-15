@@ -1,1 +1,0 @@
-The external report is about a Solidity `StakingVault` contract with a redundant `require` check that can lock WETH rewards. I need to check if a similar vulnerability class exists in `sei-chain`. Let me search for relevant patterns.

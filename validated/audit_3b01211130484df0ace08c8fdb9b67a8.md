@@ -1,3 +1,0 @@
-The external report describes an **admin-privilege abuse** in prediction market smart contracts — an admin can close a game after `endTime`, refunding users instead of paying winners. The rules require an unprivileged attacker path and reject anything needing admin/operator keys.
-
-Let me check if an analogous pattern exists in sei-chain itself (e.g., in oracle, wasm, or any module where an unprivileged actor could force a "close/cancel" that bypasses payout logic).

@@ -1,1 +1,0 @@
-The external report describes missing input validation in **privileged admin functions** of a Solidity NFT contract. To assess whether an analogous vulnerability exists in `sei-chain`, I need to check for missing constraint checks in functions accessible to **unprivileged** callers. Let me search the codebase.

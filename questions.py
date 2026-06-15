@@ -122,6 +122,87 @@ Output only one of the two outcomes above. No extra text.
 """
     return prompt
 
+def audit_format(question: str) -> str:
+    """
+    Generate a Sei question-driven vulnerability validation prompt.
+    """
+    prompt = f"""# SEI QUESTION SCAN PROMPT
+
+## Audit Question
+{question}
+
+## Rules
+- This is not a vulnerability report. It is only an audit lead.
+- Do not assume the question is true.
+- Verify everything against the actual sei-chain code.
+- Do not claim files are missing or ask for repo contents.
+- Ignore tests, docs, scripts, mocks, generated code, metadata, examples, benchmarks.
+- Do not report Giga-related issues.
+- Do not report StateSync trusted-peer issues.
+- Do not report admin, governance, validator-key, operator, leaked-key, or bad-configuration issues.
+- Reject issues that require the attacker to spend funds or depend on economic griefing only.
+- Always return either a valid report or exactly: #NoVulnerability found for this question.
+
+## Scope
+Valid only if it matches Sei bounty impact:
+- Critical: fund loss/freeze >= $5k, unauthorized transfer/mint/burn >= $5k, hard fork needed for frozen funds.
+- High: halt/crash >=1/3 validators, permanent chain split needing hard fork, default RPC crash via propagated malicious block/tx.
+- Medium: proposer freeze >=10min, unintended contract execution from network bug, unauth RPC/gRPC crash, halt/crash >=10% validators, block delay >2.5s, fund loss/freeze < $5k.
+- Low: wrong fee calculation, wrong mempool ordering/inclusion, halt/crash <10% validators.
+
+## Task
+Check whether the audit question leads to a real Sei vulnerability.
+Only unprivileged attacker paths count.
+The target file/function in the question is a starting point, not proof.
+A valid answer must prove:
+1. Real root cause in production code.
+2. Unprivileged attacker-controlled entrypoint.
+3. Feasible exploit path.
+4. Real scoped impact.
+5. No mitigation elsewhere.
+6. Not excluded by scope.
+
+## Check
+1. Classify the bug class:
+   parsing, auth/origin, ante/signature, EVM/Cosmos address, precompile/module bypass, parallel/state divergence, mempool/nonce, consensus/liveness, block validation, staking/slashing, bank/supply, IBC/bridge, wasm/gas, EVM gas/fee, replay/cache, RPC/P2P crash, resource DoS, state corruption.
+2. Map to exact file/function/lines.
+3. Trace attacker input from public entrypoint to vulnerable code.
+4. Prove the state transition, crash, delay, fee error, fund loss, or fund freeze.
+5. Check whether another validation layer rejects or mitigates it.
+6. Reject if impact is only theoretical, informational, style/gas-only, or requires trusted-role mistakes.
+
+## Reject
+Reject if any are true:
+- No attacker path.
+- Needs validator key, governance, admin, operator, leaked key, private infra, or bad config.
+- Needs malicious StateSync peer or P2P-mode state sync.
+- Involves Giga, GIGA flags, or Giga-only routing.
+- Only external app/contract/dependency cause.
+- Only tests/docs/config/scripts/mocks/generated code.
+- Theoretical only.
+- Market/oracle/liquidity-only.
+- Out of bounty scope.
+- Missing impact or likelihood proof.
+
+## Output
+If valid:
+
+### Title
+[Clear vulnerability statement] - ([File: file_path])
+
+### Summary
+### Finding Description
+### Impact Explanation
+### Likelihood Explanation
+### Recommendation
+### Proof of Concept
+
+Else exactly:
+#NoVulnerability found for this question.
+"""
+    return prompt
+
+
 
 def scan_format(report: str) -> str:
     """

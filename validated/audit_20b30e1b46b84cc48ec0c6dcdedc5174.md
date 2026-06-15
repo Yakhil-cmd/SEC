@@ -1,1 +1,0 @@
-Let me search the sei-chain codebase for patterns similar to the vulnerability class described.

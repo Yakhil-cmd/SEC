@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-from questions import validation_format, BASE_URL, scan_format
+from questions import validation_format,audit_format.  BASE_URL, scan_format
 import random
 
 
@@ -35,10 +35,10 @@ class Validator:
         s = Service(ChromeDriverManager().install())
         self.options = webdriver.ChromeOptions()
         for argument in (
-            "--no-sandbox",
-            "--disable-dev-shm-usage",
-            "--disable-gpu",
-            "--window-size=1920,1080",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--window-size=1920,1080",
         ):
             self.options.add_argument(argument)
 
@@ -87,11 +87,8 @@ class Validator:
             EC.presence_of_element_located((By.CSS_SELECTOR, 'form'))
         )
 
-
-
         for _ in range(10):
             try:
-
 
                 # # wait for the form containing the textarea
                 form = wait.until(
@@ -129,7 +126,6 @@ class Validator:
                 time.sleep(10)
                 continue
 
-
     def scan_past_vuln(self, filename, question_gotten):
         wait = WebDriverWait(self.driver, 1200)
 
@@ -138,7 +134,6 @@ class Validator:
         wait.until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'form'))
         )
-
 
         for _ in range(10):
             try:
@@ -155,7 +150,12 @@ class Validator:
                 # type the question
                 textarea.click()
                 textarea.clear()
-                formatted_question = scan_format(question_gotten)
+                base_filename = Path(filename).name.lower()
+
+                if base_filename.startswith("audit"):
+                    formatted_question = scan_format(question_gotten)
+                else:
+                    formatted_question = audit_format(question_gotten)
 
                 # Use JavaScript to set the textarea value directly. It's more reliable for large text.
                 self.driver.execute_script("arguments[0].value = arguments[1];", textarea, formatted_question)
@@ -216,10 +216,10 @@ class GetValidatedReports:
         s = Service(ChromeDriverManager().install())
         self.options = webdriver.ChromeOptions()
         for argument in (
-            "--no-sandbox",
-            "--disable-dev-shm-usage",
-            "--disable-gpu",
-            "--window-size=1920,1080",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--window-size=1920,1080",
         ):
             self.options.add_argument(argument)
 
@@ -383,14 +383,14 @@ def generate_scanned_questions_for_ask():
 
     # Get the first directory
     # folder_to_move = subdirectories[0]
-    folder_to_move =  random.choice(subdirectories)
+    folder_to_move = random.choice(subdirectories)
 
     moved_files = []
 
     try:
         # Get all md files in the folder
         md_files = sorted(folder_to_move.glob('*.md'))
-        
+
         for file_path in md_files:
             # Create destination path
             dest_path = os.path.join(validated_questions_pending_directory, file_path.name)
@@ -407,7 +407,7 @@ def generate_scanned_questions_for_ask():
             shutil.move(str(file_path), dest_path)
             moved_files.append(dest_path)
             print(f"Moved {file_path} to {dest_path}")
-            
+
         # Delete the empty folder
         shutil.rmtree(str(folder_to_move))
         print(f"Deleted empty folder {folder_to_move}")

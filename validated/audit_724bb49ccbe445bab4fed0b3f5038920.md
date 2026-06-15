@@ -1,1 +1,0 @@
-Looking at the `x/epoch/module.go` `RegisterServices` method — it registers no migrations despite `ConsensusVersion()` returning `2`. Let me verify this is the only module with this gap and check if there's any attacker-controlled path.

@@ -1,1 +1,0 @@
-The external report describes admin-controlled unbounded variables causing integer overflows. For this to be valid in sei-chain, I need to find an **unprivileged attacker path** — not just admin misconfiguration. Let me search for relevant patterns.

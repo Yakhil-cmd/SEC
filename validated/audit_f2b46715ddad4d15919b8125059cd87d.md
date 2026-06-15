@@ -1,3 +1,0 @@
-The report describes a **JavaScript prototype pollution** vulnerability — a language-specific issue where user-controlled strings like `__proto__` are used as object keys, corrupting `Object.prototype`. Since sei-chain is written in **Go**, prototype pollution as a concept does not exist. Go is a statically-typed compiled language with no prototype chain.
-
-Let me verify whether an analogous vulnerability class (user-controlled map keys causing state/cache corruption or DoS) exists in sei-chain's P2P or timestamp-related handlers.

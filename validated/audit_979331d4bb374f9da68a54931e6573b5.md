@@ -1,1 +1,0 @@
-The external report describes a DeFi application-layer bug in a stablecoin protocol (Pareto/USP) built on top of Idle Finance — specifically phantom NAV inflation from unclaimable pending withdrawals after a credit vault default. Let me check whether any analogous accounting/state-stuck pattern exists in sei-chain itself.

@@ -1,1 +1,0 @@
-Let me search the sei-chain codebase for relevant patterns related to interest accrual, lending/borrowing, and liquidation mechanisms.

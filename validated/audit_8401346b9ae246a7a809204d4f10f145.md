@@ -1,1 +1,0 @@
-Let me search the sei-chain codebase for patterns similar to the vulnerability described — specifically around deposit queues, cancellation logic, or indexed data structures where a wrong value might be used as an index.
