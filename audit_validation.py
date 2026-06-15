@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-from questions import validation_format,audit_format.  BASE_URL, scan_format
+from questions import validation_format,audit_format,  BASE_URL, scan_format
 import random
 
 
