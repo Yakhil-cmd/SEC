@@ -1,0 +1,1 @@
+The external report describes a vulnerability in a custom Vyper DeFi contract (`LT.vy`) with a rebasing token mechanism. Let me verify whether sei-chain has any analogous custom staking/rebasing balance update logic.
