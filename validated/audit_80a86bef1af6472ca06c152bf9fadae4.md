@@ -1,0 +1,3 @@
+The external report describes a **privileged** action (contract owner changing sale phases). Per the rules, "Only unprivileged attacker paths count." The report's own vulnerability requires owner/admin access, which falls squarely under the rejection criterion: "needs validator key/governance/admin/operator/leaked key."
+
+Let me verify whether sei-chain has any analogous unprivileged path for unrestricted phase/state transitions.
