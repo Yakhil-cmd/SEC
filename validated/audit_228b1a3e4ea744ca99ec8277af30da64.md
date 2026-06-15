@@ -1,0 +1,1 @@
+I'll search the sei-chain codebase for patterns similar to the vulnerability class described: fee/tax accounting mismatches in withdrawal or transfer functions.
