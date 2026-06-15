@@ -1,0 +1,1 @@
+The external report describes a Solidity smart contract issue where admin roles have broader permissions than documented. I need to check if a similar role/permission misconfiguration exists in sei-chain's Go codebase. Let me search for relevant patterns.
