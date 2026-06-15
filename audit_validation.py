@@ -20,13 +20,21 @@ from questions import validation_format, BASE_URL, scan_format
 import random
 
 
+def should_run_chrome_headless():
+    value = os.environ.get("CHROME_HEADLESS", "").lower()
+    if value in {"1", "true", "yes", "on"}:
+        return True
+    if value in {"0", "false", "no", "off"}:
+        return False
+    return os.environ.get("CI", "").lower() == "true"
+
+
 class Validator:
     def __init__(self, teardown=False):
 
         s = Service(ChromeDriverManager().install())
         self.options = webdriver.ChromeOptions()
         for argument in (
-            "--headless=new",
             "--no-sandbox",
             "--disable-dev-shm-usage",
             "--disable-gpu",
@@ -34,13 +42,9 @@ class Validator:
         ):
             self.options.add_argument(argument)
 
-        # --- Add these two lines here ---
-        self.options.add_argument("--headless")
-        self.options.add_argument("--window-size=1920,1080")
-        # ---------------------------------
+        if should_run_chrome_headless():
+            self.options.add_argument("--headless=new")
 
-        # removed headless so the browser window is visible
-        # ensure window is visible and starts maximized
         self.options.add_argument('--start-maximized')
         self.teardown = teardown
         # keep chrome open after chromedriver exits
@@ -212,7 +216,6 @@ class GetValidatedReports:
         s = Service(ChromeDriverManager().install())
         self.options = webdriver.ChromeOptions()
         for argument in (
-            "--headless=new",
             "--no-sandbox",
             "--disable-dev-shm-usage",
             "--disable-gpu",
@@ -220,13 +223,9 @@ class GetValidatedReports:
         ):
             self.options.add_argument(argument)
 
-        # --- Add these two lines here ---
-        # self.options.add_argument("--headless")
-        # self.options.add_argument("--window-size=1920,1080")
-        # ---------------------------------
+        if should_run_chrome_headless():
+            self.options.add_argument("--headless=new")
 
-        # removed headless so the browser window is visible
-        # ensure window is visible and starts maximized
         self.options.add_argument('--start-maximized')
         self.teardown = teardown
         # keep chrome open after chromedriver exits

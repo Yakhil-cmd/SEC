@@ -7,6 +7,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import json
 import os
+
+os.environ.setdefault("CHROME_HEADLESS", "false")
+
 from audit_validation import GetValidatedReports
 
 
