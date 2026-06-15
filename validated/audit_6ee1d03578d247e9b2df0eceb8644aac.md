@@ -1,0 +1,1 @@
+Let me search the sei-chain codebase for patterns related to hardcoded values in reserve/liquidity operations, or similar state corruption issues.
