@@ -1,0 +1,1 @@
+Let me search the sei-chain codebase for patterns similar to this vulnerability class — state checks that look at current status without verifying when that status was set.
