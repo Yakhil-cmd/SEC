@@ -1,0 +1,1 @@
+The external report describes a privileged owner causing DoS via inconsistent dual-initialization paths. The rules explicitly state **"Only unprivileged attacker paths count"** and require rejection if the attack needs admin/operator keys. Let me verify whether sei-chain has any analogous pattern reachable by an unprivileged attacker.
