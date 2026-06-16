@@ -1,0 +1,1 @@
+[File: 'zk_ee/src/system/errors/context/element.rs'] [Function: NamedContextElement / IErrorContext::get duplicate key behavior] Can an unprivileged transaction sender trigger an error path where the same key is pushed twice into a `nonempty::ErrorContext` (nonempty.rs line 17-22 shows `get` returns the first match via `find`), and if any downstream code calls `get(\

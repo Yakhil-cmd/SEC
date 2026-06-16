@@ -1,0 +1,1 @@
+[File: 'zk_ee/src/system/errors/context/nonempty.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'] [Function: error_ctx! macro + debug_format helper (alloc::format! allocation)] Can an unprivileged transaction sender cause the debug_format helper inside error_ctx! (which calls alloc::format!(\

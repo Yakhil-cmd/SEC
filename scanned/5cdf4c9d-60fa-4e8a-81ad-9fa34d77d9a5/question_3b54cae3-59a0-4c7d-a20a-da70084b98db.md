@@ -1,0 +1,1 @@
+[File: 'zk_ee/src/utils/cheap_clone.rs -> Scope: High. Circuit, node, or program mismatches that make valid ZKsync OS executions unprovable and require verification key regeneration'] [Function: CheapCloneRiscV trait impl bounds] Can a future developer introduce a new error type E that implements Clone but not Copy, annotate it with #[cfg_attr(target_arch = \
