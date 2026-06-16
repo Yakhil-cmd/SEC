@@ -1,0 +1,112 @@
+[
+  {
+    "question": "'File Name: zk_ee/src/system/validator/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98b88d0d-d6ff-414e-97ec-f9e633b8fe0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/types_config/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ae353d3-8e18-4d81-a4a1-d1f9ce681ce9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/aligned_vector.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5304ad04-2e9c-46a7-a614-64e8267d9eca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/bytes32.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92b32434-4470-4092-b7cd-8daadc672a96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/cheap_clone.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9dd763ba-3770-4c8e-9380-1e9479b9d838?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/convenience/memcopy.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e437f5de-cf48-497b-906a-e68f46e6cecd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/convenience/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b6ad3517-04e4-4909-9dcb-8c170fd7a4d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/exact_size_chain.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a3de691-bb78-4d8c-86ef-c3e03ea6e719?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/integer_utils.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9878d8e7-e146-4d48-bbc4-08b8306c0622?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2319e267-cc0b-4392-9431-07f7ed4234f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/stack_linked_list.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff943c2c-e9a7-4457-bbc7-b28bc4443d72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/type_assert.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32e0ea87-614e-427a-9429-34e51a547eb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/usize_rw.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ca3c3e5-7042-485b-9350-cae97792ad5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/utils/write_bytes.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97f6a15a-bb43-4c16-91c7-a8d6ea30d419?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/asm/asm_reduced.S -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd600527-c09f-49cf-9053-5ecdfb11d02a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/helper_reg_utils.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0bb9c9f1-0128-4876-9527-e9a1be9d7667?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/main.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c10042dc-137d-4a2c-b582-465cfd785437?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/memcpy.s -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1569e5ef-2a5b-441d-a948-1468e4f6a4da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/memset.s -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eba5dab8-7dbf-4924-83b6-a3c18ea9299b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/quasi_uart.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68822d57-5cc1-479d-90a0-f3b4cd11d391?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/trap_frame.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df237f6f-b465-4ad5-b8be-2ea1b4bb0d54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zksync_os/src/utils.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d2ceca0-56d8-408a-9d94-0f3d4d9ac373?mode=deep",
+    "questions_generated": false
+  }
+]
