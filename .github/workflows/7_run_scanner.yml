@@ -1,54 +1,28 @@
 name: 7 Run Scanner Automation
 
 on:
-  workflow_dispatch:
-    inputs:
-      continue_batches:
-        description: Trigger the next scanner batch automatically while work remains.
-        required: true
-        default: false
-        type: boolean
-      max_batches:
-        description: Maximum scanner runs for this manual start.
-        required: true
-        default: '1'
-        type: choice
-        options:
-          - '1'
-          - '2'
-          - '3'
-          - '4'
-          - '5'
-      batch_index:
-        description: Internal counter for continued runs. Leave as 1 when starting manually.
-        required: true
-        default: '1'
+  workflow_dispatch:  # allows manual trigger from Actions tab
+#  push:
+#    branches:
+#      - main
+
 
 permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: run-scanner-${{ github.ref }}
-  cancel-in-progress: false
-
 jobs:
-  run-scanner:
+  run-deepwiki:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: pip
 
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
@@ -59,122 +33,109 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install selenium webdriver-manager
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          pip install -r requirements.txt || echo "No requirements.txt found, skipping"
 
       - name: Check for scanned files
-        id: check_scanned
+        id: check_audited
         run: |
-          if find scanned -type f -name '*.md' -print -quit 2>/dev/null | grep -q .; then
-            echo "has_scanned=true" >> "$GITHUB_OUTPUT"
+          # Logic to check if there are files to process
+          if [ -n "$(find scanned -name '*.md' | head -n 1)" ]; then
+            echo "run_workflow=true" >> $GITHUB_OUTPUT
           else
-            echo "has_scanned=false" >> "$GITHUB_OUTPUT"
+            echo "run_workflow=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Generate pending scanned questions
-        if: steps.check_scanned.outputs.has_scanned == 'true'
+      - name: Run Validator
         env:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
+
         run: python run_generate_scanned_questions_pending.py
 
-      - name: Commit generated pending questions
-        if: steps.check_scanned.outputs.has_scanned == 'true'
+      - name: Commit and push changes
+        if: steps.check_audited.outputs.run_workflow == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
-
-          if git diff --staged --quiet; then
-            echo "No generated changes to commit"
-            exit 0
+          
+          git commit -m "Auto-update: collections and reports"
+          # Retry logic
+          n=0
+          until [ $n -ge 3 ]; do
+            git pull --rebase origin main
+            if git push --force origin main; then
+              echo "Push succeeded"
+              break
+            fi
+            n=$((n+1))
+            echo "Push failed, retrying in 5 seconds..."
+            sleep 5
+          done
+          
+          # Fail the step if all retries are exhausted
+          if [ $n -eq 3 ]; then
+          echo "Failed to push after 3 attempts"
+          exit 1
           fi
 
-          git commit -m "Auto-update scanned question batch"
-          git pull --rebase --autostash origin main
-          git push origin main
 
-      - name: Check for pending validation files
-        id: check_pending
-        run: |
-          if find validated_questions_pending -type f -name '*.md' -print -quit 2>/dev/null | grep -q .; then
-            echo "has_pending=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_pending=false" >> "$GITHUB_OUTPUT"
-          fi
+      - name: Trigger next batch after generate
+        if: steps.check_audited.outputs.run_workflow == 'true'
+        uses: nick-fields/retry@v3
+        with:
+          max_attempts: 5
+          timeout_seconds: 60
+          retry_on: 'error'
+          retry_wait_seconds: 300  # 5 minutes between retries
+          command: |
+            #!/bin/bash
+            set -e
+            # Using curl directly with the GitHub API
+            curl -X POST \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/7_run_scanner.yml/dispatches \
+              -d '{"ref":"main"}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      - name: Run scanner batch
-        if: steps.check_pending.outputs.has_pending == 'true'
+      - name: Run Validator
         env:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
+
         run: python run_scanner.py
 
-      - name: Commit scanner results
-        if: steps.check_pending.outputs.has_pending == 'true'
+
+      - name: Commit and push changes
+        if: steps.check_audited.outputs.run_workflow == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
-
-          if git diff --staged --quiet; then
-            echo "No scanner changes to commit"
-            exit 0
+          
+          git commit -m "Auto-update: collections and reports"
+          # Retry logic
+          n=0
+          until [ $n -ge 3 ]; do
+            git pull --rebase origin main
+            if git push --force origin main; then
+              echo "Push succeeded"
+              break
+            fi
+            n=$((n+1))
+            echo "Push failed, retrying in 5 seconds..."
+            sleep 5
+          done
+          
+          # Fail the step if all retries are exhausted
+          if [ $n -eq 3 ]; then
+          echo "Failed to push after 3 attempts"
+          exit 1
           fi
 
-          git commit -m "Auto-update scanner results"
-          git pull --rebase --autostash origin main
-          git push origin main
 
-      - name: Check for more pending validation files
-        id: check_more_pending
-        if: steps.check_pending.outputs.has_pending == 'true'
-        run: |
-          if find validated_questions_pending -type f -name '*.md' -print -quit 2>/dev/null | grep -q .; then
-            echo "has_more_pending=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_more_pending=false" >> "$GITHUB_OUTPUT"
-          fi
 
-      - name: Trigger next bounded scanner batch
-        if: >-
-          github.event.inputs.continue_batches == 'true' &&
-          steps.check_more_pending.outputs.has_more_pending == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BATCH_INDEX: ${{ github.event.inputs.batch_index }}
-          MAX_BATCHES: ${{ github.event.inputs.max_batches }}
-        run: |
-          set -euo pipefail
 
-          case "$BATCH_INDEX" in
-            ''|*[!0-9]*) echo "Invalid batch_index: $BATCH_INDEX"; exit 1 ;;
-          esac
 
-          case "$MAX_BATCHES" in
-            1|2|3|4|5) ;;
-            *) echo "Invalid max_batches: $MAX_BATCHES"; exit 1 ;;
-          esac
+     
 
-          if [ "$BATCH_INDEX" -ge "$MAX_BATCHES" ]; then
-            echo "Reached max_batches=$MAX_BATCHES. Not dispatching another run."
-            exit 0
-          fi
-
-          next_batch=$((BATCH_INDEX + 1))
-          cat > dispatch.json <<JSON
-          {
-            "ref": "main",
-            "inputs": {
-              "continue_batches": "true",
-              "max_batches": "$MAX_BATCHES",
-              "batch_index": "$next_batch"
-            }
-          }
-          JSON
-
-          curl -fsS -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/7_run_scanner.yml/dispatches" \
-            --data @dispatch.json
