@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: supporting_crates/delegated_u256/src/arithmetic.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed6bd9a8-1ed2-43a1-ab5e-4738c082ba45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/delegated_u256/src/copy.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b82bf828-d906-4d34-9dbf-2323ed1769e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/delegated_u256/src/delegation.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1e57096-2ad7-4ce7-bb1c-7af15c89ce52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/delegated_u256/src/lib.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10289bd9-1980-4131-9462-7005618c6c54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/delegated_u256/src/utils.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba1688e4-52cb-4c22-9d50-769528d26d6f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/modexp/src/arith.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0c2d8fa-1f56-4c60-85bd-1c9c07896d5f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/modexp/src/lib.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12606444-299b-4c4e-b2eb-c90e982625f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/modexp/src/mpnat.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b6169300-f8fb-42cd-89e3-ce253249df34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/u256/src/lib.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_044a5a38-85a9-4563-b830-a2461840d1a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/u256/src/naive/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02ee2e69-e376-4170-bfc4-4edb51de4d24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: supporting_crates/u256/src/risc_v/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5a09a0e-18e4-4852-bb8e-57e1db2fed34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/addresses_constants.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d79eda9-97d6-4389-8672-bd4e791980d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/call_hooks/contract_deployer_temp.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91631df7-61ed-44cd-a560-a8aa4aafadd0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/call_hooks/l1_messenger.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_63750ec1-70da-429a-aa0e-01f405560675?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/call_hooks/mint_base_token.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4f48154-578e-4554-8b5a-21536491ffb3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/call_hooks/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6fe8b0c3-9b22-43bf-8dca-9b5582cba84f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/call_hooks/precompiles.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07f76303-3633-4a5b-b9e3-57164a65f0af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/call_hooks/set_bytecode_on_address.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f7f46ee-84d9-4c6a-aa7f-ae4d4838a4d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/event_hooks/interop_root_reporter.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b67cf0d0-6362-4221-bd81-3d0ecc2ac523?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/event_hooks/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_139d1e02-2f15-4d41-9f80-e354d72ef989?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/event_hooks/system_context.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_798cbd89-fae0-4844-9c10-b936b18edf3f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: system_hooks/src/lib.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5c9e54e-b354-4499-9d48-e3dfa40f9081?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/common_structs/cache_record.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_452a6047-cba4-4289-99a9-c5ecfaa14c66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/common_structs/callee_account_properties.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03af953d-3b01-4812-9847-aaa179c9d9e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: zk_ee/src/common_structs/da_commitment_scheme.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f38b7ff1-5c27-471b-bae3-822bcc6a63aa?mode=deep",
+    "questions_generated": false
+  }
+]
