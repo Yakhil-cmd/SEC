@@ -1,1 +1,0 @@
-[File: 'zk_ee/src/system/errors/context/contextualized.rs' + 'zk_ee/src/system/errors/internal.rs'] [Function: InternalError::with_context_inner / internal_error! macro] Can an unprivileged caller trigger a code path where `internal_error!(\
