@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/block_data_keeper.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1a713dc-6f7b-484d-97e2-50184e837bc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/chain_check.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b3ec3b6c-3424-41f6-bc02-6e666c48f1ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/metadata_init_op.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c271deb7-0449-47ba-9e09-db1d4dda255c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e631c6b0-dc8c-42be-9238-2cc2fed9e13e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/post_system_init_op.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee83ff5b-e886-4e93-b6b3-0a0d1e7f1c8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/post_tx_loop_op.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e72e290-4296-4a61-a50e-30813d5ee86a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/pre_tx_loop_op.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ea73fce-74d1-492f-86a7-905917f1c995?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/tx_loop.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f9883a9-0e20-41a4-946d-5c6bbd38b15e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/batch_data.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_09fd535b-07f6-4959-b1fe-5b3c78ddc0e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/block_data.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05f00af6-8f7e-4d6a-864c-cb80dd207430?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/metadata_op.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5b6c336-35c4-404a-83f3-e4ee3a1ae836?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ceb26960-0c31-4ae6-93e0-70d4b0fa053e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_init_op.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0aef4f48-10cb-404e-b947-455dd67bc5b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/blake2s_commitment_generator.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16112d2f-0490-4186-9a70-f957fb63e1c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/blob_commitment_generator/brp_roots_of_unity.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c6d7364-89ce-4a9e-b086-11663e37deeb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/blob_commitment_generator/commitment_and_proof_advice.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cac5095-b115-4a48-b120-7bf594a3327a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/blob_commitment_generator/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3fdceb1f-444a-49c5-8583-c67f62460d52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/blob_commitment_generator/polynomial_evaluation.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6e52654-4c35-4701-afc9-2cd94fced8d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/keccak256_commitment_generator.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2736134-fba7-4550-8bab-e6409c358aa0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/da_commitment_generator/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f8d6a2a-0f91-49b3-8124-4fe4abbfc60b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11540f0c-6f4b-45a7-9f65-481e2ee2dabb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/post_tx_op_proving_multiblock_batch.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9c926e4-7d7d-4bee-8a27-f7438ee4743d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/post_tx_op_proving_singleblock_batch.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03ecbbe6-fa3c-4672-81c2-522d7c04a6a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/post_tx_op_sequencing.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb3feece-1581-46c5-9c54-924ace815201?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/post_tx_op/public_input.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e5904bd-8032-417f-9eeb-d35bae08a6a8?mode=deep",
+    "questions_generated": false
+  }
+]
