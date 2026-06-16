@@ -21,13 +21,21 @@ import re
 from typing import List
 
 
+def should_run_chrome_headless():
+    value = os.environ.get("CHROME_HEADLESS", "").lower()
+    if value in {"1", "true", "yes", "on"}:
+        return True
+    if value in {"0", "false", "no", "off"}:
+        return False
+    return os.environ.get("CI", "").lower() == "true"
+
+
 class GenerateQuestions:
     def __init__(self, teardown=False):
 
         s = Service(ChromeDriverManager().install())
         self.options = webdriver.ChromeOptions()
         for argument in (
-            "--headless=new",
             "--no-sandbox",
             "--disable-dev-shm-usage",
             "--disable-gpu",
@@ -35,12 +43,9 @@ class GenerateQuestions:
         ):
             self.options.add_argument(argument)
 
-        # --- Add these two lines here ---
-        self.options.add_argument("--headless")
-        self.options.add_argument("--window-size=1920,1080")
-        # ---------------------------------
+        if should_run_chrome_headless():
+            self.options.add_argument("--headless=new")
 
-        # removed headless so the browser window is visible
         # ensure window is visible and starts maximized
         self.options.add_argument('--start-maximized')
         self.teardown = teardown
@@ -189,8 +194,8 @@ class GetQuestions:
         super(GetQuestions, self).__init__()
 
     def get_questions(self, url):
-        question_directory = os.environ.get('QUESTION_DIR', 'question')
-        os.makedirs(question_directory, exist_ok=True)
+        scanned_directory = os.environ.get('SCANNED_DIR', 'scanned')
+        os.makedirs(scanned_directory, exist_ok=True)
 
         try:
             self.driver.get(url)
@@ -213,26 +218,27 @@ class GetQuestions:
             all_questions = self.get_question_content(clipboard_content)
 
             try:
-                # Split into chunks of 25
                 chunk_size = 25
                 total_questions = len(all_questions)
 
                 for i in range(0, total_questions, chunk_size):
-                    # Get a chunk of 25 questions
                     chunk = all_questions[i:i + chunk_size]
+                    folder_name = str(uuid.uuid4())
+                    folder_path = os.path.join(scanned_directory, folder_name)
+                    os.makedirs(folder_path, exist_ok=True)
 
-                    # Generate a unique filename
-                    filename = f"{str(uuid.uuid4())}.json".replace("-", "")
-                    filepath = os.path.join(question_directory, filename)
+                    for question in chunk:
+                        filename = f"question_{uuid.uuid4()}.md"
+                        filepath = os.path.join(folder_path, filename)
 
-                    # Save the chunk to a new file
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump(chunk, f, indent=2, ensure_ascii=False)
+                        with open(filepath, 'w', encoding='utf-8') as f:
+                            f.write(question)
+                            f.write("\n")
 
-                    print(f"Saved {len(chunk)} questions to {filepath}")
+                    print(f"Saved {len(chunk)} questions to {folder_path}")
 
                 print(
-                    f"\nSuccessfully split {total_questions} questions into {((total_questions - 1) // chunk_size) + 1} files")
+                    f"\nSuccessfully split {total_questions} questions into {((total_questions - 1) // chunk_size) + 1} folders")
             except Exception as a:
                 print(a)
 

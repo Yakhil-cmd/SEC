@@ -5,7 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import json
-from questions_generator import GenerateQuestions
+from questions_generator import GenerateQuestions, should_run_chrome_headless
 
 
 def get_pending_scope_file(question_pending_dir="scope_pending"):
@@ -50,6 +50,7 @@ def main():
 
         total = len(questions)
         print(f"Found {total} questions in {pending_file}")
+        print(f"Chrome headless: {should_run_chrome_headless()}")
 
         # Process questions
         for i, question in enumerate(questions, 1):

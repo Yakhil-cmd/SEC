@@ -1,11 +1,10 @@
-name: 6 Run Validation Automation
+name: 3 Run Question Generator Report
 
 on:
   workflow_dispatch:  # allows manual trigger from Actions tab
 #  push:
 #    branches:
 #      - main
-
 
 permissions:
   contents: write
@@ -35,24 +34,27 @@ jobs:
           pip install selenium webdriver-manager
           pip install -r requirements.txt || echo "No requirements.txt found, skipping"
 
-      - name: Check for automation files
-        id: check_audited
+
+      - name: Check for question files
+        id: check_questions
         run: |
           # Logic to check if there are files to process
-          if [ -n "$(find audited -name '*.md' | head -n 1)" ]; then
+          if [ -n "$(find scope_questions -name '*.json' | head -n 1)" ]; then
             echo "run_workflow=true" >> $GITHUB_OUTPUT
           else
             echo "run_workflow=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Run Validator
+      - name: Run Generate File
         env:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
 
-        run: python run_generate_validated_questions_pending.py
+        if: steps.check_questions.outputs.run_workflow == 'true'
+        run: python run_questions_generator_report_generate.py
+
 
       - name: Commit and push changes
-        if: steps.check_audited.outputs.run_workflow == 'true'
+        if: steps.check_questions.outputs.run_workflow == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -78,9 +80,8 @@ jobs:
           exit 1
           fi
 
-
       - name: Trigger next batch after generate
-        if: steps.check_audited.outputs.run_workflow == 'true'
+        if: steps.check_questions.outputs.run_workflow == 'true'
         uses: nick-fields/retry@v3
         with:
           max_attempts: 5
@@ -94,20 +95,24 @@ jobs:
             curl -X POST \
               -H "Accept: application/vnd.github.v3+json" \
               -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
-              https://api.github.com/repos/${{ github.repository }}/actions/workflows/6_run_validator.yml/dispatches \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/3_run_question_generator_questions.yml/dispatches \
               -d '{"ref":"main"}'
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      - name: Run Validator
+
+      - name: Run reports with virtual display
         env:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
-
-        run: python run_validator.py
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
+          sudo apt-get install xclip
+          xvfb-run --auto-servernum python run_questions_generator_report.py
 
 
       - name: Commit and push changes
-        if: steps.check_audited.outputs.run_workflow == 'true'
+        if: steps.check_questions.outputs.run_workflow == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -132,4 +137,3 @@ jobs:
           echo "Failed to push after 3 attempts"
           exit 1
           fi
-

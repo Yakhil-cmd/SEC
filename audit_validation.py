@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
-from questions import validation_format,audit_format,  BASE_URL, scan_format
+from questions import audit_format, BASE_URL, scan_format
 import random
 
 
@@ -77,54 +77,6 @@ class Validator:
         xpath_primary = "//div[@role='menuitem' and .//span[normalize-space(text())='Deep Research']]"
         menu_item = wait.until(EC.element_to_be_clickable((By.XPATH, xpath_primary)))
         menu_item.click()
-
-    def ask_question(self, filename, question_gotten):
-        wait = WebDriverWait(self.driver, 1200)
-
-        self.driver.get(BASE_URL)
-
-        wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'form'))
-        )
-
-        for _ in range(10):
-            try:
-
-                # # wait for the form containing the textarea
-                form = wait.until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, 'form'))
-                )
-
-                # find the textarea inside the form
-                textarea = form.find_element(By.CSS_SELECTOR, 'textarea')
-                self.toggle_deep_research()
-
-                # type the question
-                textarea.click()
-                textarea.clear()
-                used_question = f"{question_gotten}".split("## Recommendation")[0]
-                formatted_question = validation_format(used_question)
-
-                # Use JavaScript to set the textarea value directly. It's more reliable for large text.
-                self.driver.execute_script("arguments[0].value = arguments[1];", textarea, formatted_question)
-                # Dispatch an 'input' event to make sure the web application detects the change.
-                self.driver.execute_script("arguments[0].dispatchEvent(new Event('input', { bubbles: true }));",
-                                           textarea)
-                textarea.send_keys(".. ")
-
-                textarea.send_keys(Keys.ENTER)
-
-                time.sleep(10)
-                current_url = self.driver.current_url
-
-                # add the current url to validated
-                self.save_to_validated(filename, current_url)
-                break
-            except Exception as a:
-                print(f"There was an error ")
-                print(f"{self.driver.current_url}")
-                time.sleep(10)
-                continue
 
     def scan_past_vuln(self, filename, question_gotten):
         wait = WebDriverWait(self.driver, 1200)
