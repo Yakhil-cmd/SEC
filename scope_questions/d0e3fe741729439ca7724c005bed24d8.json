@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/pre_tx_loop.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_200eb258-c161-40bd-a2c8-f2f66b04c362?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_flow/zk/tx_loop.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c00c3814-e5a5-4e9a-b48d-07f05a0ed86a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/block_header.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b654d18-6d7f-4340-ad7a-1801453e49a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/config.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f70f13e-c304-4f70-afe1-5e908b5762f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/constants.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2403126a-156d-4cd9-80af-24066e1d916e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/errors.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd83195b-880e-469b-9e2c-2a1f9152b85b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_17858251-c914-419d-b5fb-df35fc5977e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/result_keeper.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2c4c0bf-6d0e-4307-b05b-4916ff63fffe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/rlp.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e2857d3-2254-4d3d-a15b-f440f3d6178a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/run_single_interaction.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_077eb6b6-c11c-436e-b35d-273c00742477?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/runner.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5790e178-0fbe-4430-8523-3168b92ec11a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/stf.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55eaed98-4bf4-4eff-b359-85a8531f5ce5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/supported_ees.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86452df6-d3d0-439a-9748-fe8e4f0e72b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/abi_encoded/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_959b9025-d875-44d5-abdf-c85b8339be78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/abi_encoded/u256be_ptr.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_457fcb27-728a-4009-b452-42f869f2c370?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/access_list.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b73ef4a3-6a92-4a4d-8c6a-d68b62f7aff7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/authorization_list.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ffab97b-8c3a-4197-92b3-2c1ed6f992d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/blobs.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e405f98a-7373-4f05-89e2-0de48edb3ddb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03a1d789-0051-46d6-8fdf-ea8c150cdc9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/rlp_encoded/eip_2718_tx_envelope.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b680294c-dee8-4c05-97bc-5149899bcbdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/rlp_encoded/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a23a167d-9c24-44a9-8d66-67fd8be96281?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/rlp_encoded/rlp/minimal_rlp_parser.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a200a829-2d48-4716-9173-18d98d592c0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/rlp_encoded/rlp/mod.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e37f7906-9964-40cd-86e8-c86acd570e1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/rlp_encoded/transaction.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a1f0b1e-1dc6-49e0-8413-07a8818f959f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: basic_bootloader/src/bootloader/transaction/rlp_encoded/transaction_types/eip_1559_tx.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ad203f1-3a5b-499a-9e5f-cf05a62d42ae?mode=deep",
+    "questions_generated": false
+  }
+]
