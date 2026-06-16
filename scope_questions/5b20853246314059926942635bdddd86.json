@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: callable_oracles/src/hash_to_prime/evaluate.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_835d3f55-3cda-409c-9915-8a8b6d0568f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: callable_oracles/src/hash_to_prime/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_638dbaf7-c7a5-48a6-b91b-e12f4fcfbe08?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: callable_oracles/src/hash_to_prime/verify.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f481a3f9-357b-4bea-9684-5cefc0c73811?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: callable_oracles/src/lib.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddf4dfd6-eccc-4259-9a4a-35d2746d6278?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: callable_oracles/src/utils/evaluate.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4249fd28-4a5b-4761-861f-414f139198e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: callable_oracles/src/utils/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e4430fe-495b-421e-8bc9-46a18f7ed74a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: callable_oracles/src/utils/usize_slice_iterator.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_abac3d39-030a-4c68-9a46-7a0a096ca19f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/ark_ff_delegation/biginteger/arithmetic.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1773a18-ec58-46c2-bb1b-e1c15696ac03?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/ark_ff_delegation/biginteger/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6cb77cec-f1ad-4689-89e7-d35030ca1cdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/ark_ff_delegation/const_helpers.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2609874a-a5d0-4941-8986-59ac9dbb9443?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/ark_ff_delegation/fp/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_460a1e46-6985-4d2c-8db2-a9a08aea1948?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/ark_ff_delegation/fp/montgomery_backend.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd8b67d4-cf69-4b71-bee1-bd7f988a7559?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/ark_ff_delegation/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7bf50f9-91ff-43d1-b56c-548954b6f915?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bigint_delegation/delegation.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8434ff6f-68bb-4bb3-b113-90f9b8464800?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bigint_delegation/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02615ac8-4e22-4ca8-8608-3556163ff117?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bigint_delegation/u256.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91f15e77-eea5-41c4-bda9-49b8c766cef6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bigint_delegation/u512.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dce1e189-ca1f-40e2-99ba-ec53949b79e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/blake2s/delegated_extended.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e01c9ee3-9f79-4498-8eb1-214cb367cb46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/blake2s/mod.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51748357-77f8-49c7-bb99-654885c8c568?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/blake2s/naive.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2eb4cda-46c3-457a-bcf8-25b712148fd3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/consts.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d520fee-82c0-4c7b-af63-b123d4635c08?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/g1.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ce938a2-1d4a-4b7b-b92e-46cf76617a8d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/g1_swu_iso.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2b25205a-a179-4a43-9c3f-82c21a739471?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/g2.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab218ede-342e-4d66-8ca2-ee73912dce44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/g2_swu_iso.rs -> Scope: Medium. Undocumented deviation from EVM behavior'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8bc6a1ed-4d7d-4f25-a99b-90674eb73e03?mode=deep",
+    "questions_generated": false
+  }
+]
