@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16f51699-b18d-4c45-8446-e9af5eac4aba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/pairing_impl.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_447c506f-5ebf-4b96-92f8-78ea2c99800e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/curves/util.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d16e192c-4b3a-4327-94b0-6b5c9519b4c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/eip2537.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2576a9b0-b8c9-48a7-acbb-05f225cafa20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/fields/fq.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd7ec00c-1762-4118-a9c9-a0f42180bf32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/fields/fq12.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29125df4-86df-48fa-a36b-488c948349e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/fields/fq2.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ac4cfbf-60b9-4fa3-8771-69b7b2632a25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/fields/fq6.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c85a1089-d68b-44ae-b825-8e13426c8d92?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/fields/fr.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_17873959-3398-46b3-aeb6-9b84fa71804d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/fields/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_305626b7-5f18-4ae5-b0e7-944a9c096b64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bls12_381/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba6ad777-1f0b-445b-9873-5414b290ec4d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/curves/g1.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d2f1fc08-f25f-4524-bd46-86ca1b8ed81f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/curves/g2.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_142ab77f-9555-4f10-ad93-ed12d8d5e375?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/curves/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_292b3772-e5f6-4671-80c3-a599049f6275?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/curves/pairing_impl.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34afabaa-e11f-4091-aacb-dba625073f74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/fields/fq.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cab148be-832f-4cf0-9d93-f536f3348b85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/fields/fq12.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8713393c-8af8-440f-a02a-83b3ef895ddd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/fields/fq2.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3026f246-173e-4540-b7e8-31df0087bfcd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/fields/fq6.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5fbc5b71-e98b-4f23-9306-ee762156e56d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/fields/fr.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6346f312-b9a7-417b-bbdc-bb1befe4dc38?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/fields/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bb61b0b-caf7-486d-99e0-67a0f0d63d5a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/bn254/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec370406-3381-4f5c-ab4e-3b3bf50ce3aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/glv_decomposition.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49c74396-999a-48ae-ae5c-1892648bead3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/k256/mod.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73f9d6a4-5df2-4623-a1ac-a131723dbabd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/lib.rs -> Scope: Critical. Direct and publicly triggerable loss of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_579c5e55-e780-4a89-9297-a2aeb6c7cdcd?mode=deep",
+    "questions_generated": false
+  }
+]
