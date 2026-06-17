@@ -1,0 +1,1 @@
+Let me look at how event hooks are called in the EVM interpreter to confirm the timing of the `system_context_event_hook` call.
