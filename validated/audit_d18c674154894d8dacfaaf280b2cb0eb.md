@@ -1,0 +1,3 @@
+Looking at the ZKsync OS codebase, I need to determine whether the same class of underconstraint (missing `remainder < divisor` check in a division-based operation) exists.
+
+The EVM `SHR` opcode in ZKsync OS is implemented as a direct native bit shift (`*op2 >>= shift`) in `evm_interpreter/src/instructions/bitwise.rs`, not as a division — so the exact analog does not exist there. However, the modexp precompile uses an oracle-based non-deterministic division where the same constraint class is missing.
