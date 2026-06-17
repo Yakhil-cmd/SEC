@@ -1,1 +1,0 @@
-[File: 'zk_ee/src/system/errors/context/nonempty.rs -> Scope: High. Underconstraints in the circuit that make invalid ZKsync OS executions provable'] [Function: IErrorContext::push (cfg!(not(target_arch = riscv32)) guard inside nonempty.rs)] Can an unprivileged transaction sender exploit the redundant cfg!(not(target_arch = \
