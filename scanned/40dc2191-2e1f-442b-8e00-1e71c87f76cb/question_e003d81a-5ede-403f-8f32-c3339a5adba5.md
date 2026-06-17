@@ -1,1 +1,0 @@
-[File: 'crypto/src/bls12_381/curves/g2.rs -> Scope: High. Circuit, node, or program mismatches that make valid ZKsync OS executions unprovable and require verification key regeneration'] [Function: SCALAR_DECOMP_COEFFS for G2 GLVConfig / BigInt! macro resolution] Can an unprivileged caller trigger a G2 MSM operation, under the precondition that SCALAR_DECOMP_COEFFS uses BigInt!(\
