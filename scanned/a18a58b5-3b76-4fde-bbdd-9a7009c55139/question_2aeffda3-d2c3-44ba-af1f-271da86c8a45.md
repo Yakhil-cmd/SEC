@@ -1,4 +1,0 @@
-[File: 'crypto/src/secp256r1/scalar/scalar64.rs' + 'crypto/src/secp256r1/scalar/mod.rs'] [Function: Signature::from_scalars / from_be_bytes strict vs reduce_be_bytes permissive] Can an unprivileged caller observe that r and s are strictly validated (from_be_bytes rejects >= n, is_zero rejects 0) while the digest z is permissively reduced (reduce_be_bytes accepts any 256-bit value), and exploit this asymmetry to craft a digest value >= n that reduces to a specific target z' = digest_int mod n, allowing signature reuse across two different digest byte strings that reduce to the same scalar — constituting an undocumented deviation from EVM behavior where EIP-7951 does not specify digest reduction semantics? Preconditions: two digest byte strings d1 != d2 where d1_int mod n == d2_int mod n (e.g., d2 = d1 + n); valid (r, s, x, y) for d1. Call sequence: p
-
-```python
-questions = [
