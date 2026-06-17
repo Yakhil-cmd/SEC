@@ -1,1 +1,0 @@
-[File: 'crypto/src/bls12_381/fields/fq12.rs' + 'crypto/src/bls12_381/curves/pairing_impl.rs'] [Function: Bls12_381::final_exponentiation (easy part: frobenius_map_in_place(2))] Can an unprivileged caller supply a BLS12-381 pairing input such that the easy part of `final_exponentiation` applies `r.frobenius_map_in_place(2)`, which uses `FROBENIUS_COEFF_FP12_C1[2]` = `MontFp!(\
