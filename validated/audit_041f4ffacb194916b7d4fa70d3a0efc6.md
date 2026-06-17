@@ -1,0 +1,1 @@
+Looking at the codebase, I need to search more specifically for the pattern where a computed value is stored in a local variable but a struct/context field (defaulting to 0) is used downstream.
