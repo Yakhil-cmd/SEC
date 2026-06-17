@@ -1,4 +1,0 @@
-[File: 'basic_bootloader/src/bootloader/transaction/rlp_encoded/transaction_types/mod.rs'] [Function: HomList::decode_list_from with VALIDATE=true / AuthorizationList in EIP7702Tx] Can an unprivileged sender submit an EIP-7702 transaction with an authorization list where the HomList VALIDATE=true path pre-validates all entries during decode_list_from (counting them and erroring on malformed entries), but the HomListIter<T, true> iterator later panics with 'pre-validated' if the underlying RLP cursor encounters an error during iteration (because the payload bytes are borrowed from the original buffer and could theoretically be corrupted), causing a panic in the proving environment that is not a clean error return, making the valid execution unprovable due to a program abort rather than a handled error? Preconditions: EIP-
-
-```python
-questions = [
