@@ -1,0 +1,1 @@
+Let me look more carefully at the `evm_refunds_counter` rollback behavior and the `GenericPubdataAwarePlainStorage` structure.
