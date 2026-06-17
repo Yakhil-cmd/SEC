@@ -1,0 +1,1 @@
+I need to trace the exact code path from CALL opcode through the transfer to see if `BalanceError::Overflow` can reach `ExitCode::FatalError`.
