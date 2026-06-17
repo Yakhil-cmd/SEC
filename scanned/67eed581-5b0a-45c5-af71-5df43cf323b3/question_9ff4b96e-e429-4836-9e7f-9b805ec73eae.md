@@ -1,1 +1,0 @@
-[File: 'basic_bootloader/src/bootloader/transaction/mod.rs'] [Function: Transaction::signed_hash / ABI-encoded transactions in ZK validation] Can an unprivileged attacker submit an ABI-encoded transaction through a code path that calls transaction.signed_hash() (which returns Err(internal_error!(\

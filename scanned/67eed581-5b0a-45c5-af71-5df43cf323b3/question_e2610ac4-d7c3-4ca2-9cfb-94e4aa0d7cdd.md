@@ -1,1 +1,0 @@
-[File: 'basic_bootloader/src/bootloader/transaction/mod.rs'] [Function: charge_keccak / Transaction::transaction_hash] Can an unprivileged attacker craft a transaction whose buffer length causes charge_keccak to be called when ergs are already exhausted, triggering the OutOfErgs branch which maps to internal_error!(\
