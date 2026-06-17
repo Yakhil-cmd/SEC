@@ -1,1 +1,0 @@
-[File: 'zk_ee/src/system/errors/display.rs -> Scope: High. Circuit, node, or program mismatches that make valid ZKsync OS executions unprovable and require verification key regeneration'] [Function: CascadedError::fmt] Can an unprivileged transaction sender craft a call sequence that causes CascadedError::fmt to emit the inner error payload twice (write!(f, \
