@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: rs/rosetta-api/icp/ledger_canister_blocks_synchronizer/src/lib.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_69cc1768-8b83-4801-8c56-0c115499ee28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/ledger_canister_blocks_synchronizer/src/rosetta_block.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b30246d6-293d-4b6a-99bd-4312d00091d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/runner/src/constants.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d0d594c-3322-4433-b5a6-346710f5e6a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/runner/src/lib.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_472cf31c-6a49-4cd7-8d19-5b8a47a56488?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/convert.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05638826-c594-42ec-b8ab-83ace27270ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/convert/state.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da71a75a-05b0-401f-b66f-ba4ff0a1d802?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/errors.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4445e41-a42c-4f85-a30b-1a52b9191de0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b4f6740-9e26-4954-bdbe-e57f40c4f361?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/disburse_maturity_response.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74a26ae1-70ad-48e1-b23d-310a07c95679?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_add_hotkey.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d353865e-d5b1-4a7e-9633-b0292bd97639?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_change_auto_stake_maturity.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7fdc2233-8ffc-4c9c-ad25-703d1beb0ced?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_disburse.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e698fdb-118d-4fc5-bdc7-1a6323b77811?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_disburse_maturity.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f795ca00-40f0-4a37-9680-871d28e3c5a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_follow.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d9db577-5616-48b0-8685-e5737ace83e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_list_neurons.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a39bdcab-b621-43f6-a62e-6a5e0f805f70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_neuron_info.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66b32cd1-e891-4902-a006-adadaf689ec7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_refresh_voting_power.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b79c30a3-e79a-4ba3-9521-6b0d4c8c1994?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_register_vote.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5dada547-3f9c-4e4f-ae2b-e5edf79c8164?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_remove_hotkey.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f062118f-c164-4e72-b5f8-b7037d5f2c45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_send.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70dc6b82-8fe7-41ce-82f2-595d405bdfdc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_set_dissolve_timestamp.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23cbb316-641c-49e2-a42f-a00e16d61c2b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_spawn.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29516548-117b-4b09-8a68-6330d20761eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_stake.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e557cae4-8d53-4544-8f54-66de5f6fef35?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_stake_maturity.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25b5cec7-141c-442b-b202-08dd013c3f88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_start_dissolve.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfb0086f-3ba5-498a-8571-740fc76d49ed?mode=deep",
+    "questions_generated": false
+  }
+]
