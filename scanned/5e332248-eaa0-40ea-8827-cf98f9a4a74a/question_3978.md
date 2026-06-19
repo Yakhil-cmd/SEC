@@ -1,0 +1,13 @@
+# Q3978: consensus: create signature share bounds/overflow
+
+## Question
+Can an unprivileged attacker enter through public signature or threshold-signing request path and drive `rs/consensus/idkg/src/signer.rs`::create_signature_share with attacker-controlled artifact bytes, heights, registry versions, validation context, and timing/order of gossip to hit boundary values for lengths, amounts, timestamps, heights, and indexes to cause aliasing or overflow; specifically, can this make validation accept an artifact whose dependencies or height context differ across honest replicas, violating the invariant that below-threshold peers must not break consensus safety, liveness, or finalized chain uniqueness, and produce HackenProof Critical: consensus integrity compromise or arbitrary invalid block insertion/finalization?
+
+## Target
+- File/function: `rs/consensus/idkg/src/signer.rs`::create_signature_share
+- Entrypoint: public signature or threshold-signing request path
+- Attacker controls: artifact bytes, heights, registry versions, validation context, and timing/order of gossip
+- Exploit idea: make validation accept an artifact whose dependencies or height context differ across honest replicas
+- Invariant to test: below-threshold peers must not break consensus safety, liveness, or finalized chain uniqueness
+- Expected HackenProof impact: HackenProof Critical: consensus integrity compromise or arbitrary invalid block insertion/finalization
+- Fast validation: construct a local consensus/pool test with two artifact arrival orders and assert identical validation/finalization results; include min/max amounts, zero values, max heights, oversized payloads, and duplicate IDs

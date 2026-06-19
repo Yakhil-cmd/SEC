@@ -1,0 +1,13 @@
+# Q811: core protocol: mid authorization boundary
+
+## Question
+Can an unprivileged attacker enter through a below-threshold protocol peer supplies validly framed but adversarial protocol data and drive `rs/nervous_system/common/src/binary_search.rs`::mid with attacker-controlled serialized request fields, timing, retries, message order, payload sizes, and cross-component state references to bypass authorization by desynchronizing caller identity, effective canister/account, and validated state; specifically, can this force an edge-case error path to commit partial state or skip required cleanup, violating the invariant that publicly reachable edge cases must fail closed without bypassing consensus, accounting, or certification invariants, and produce HackenProof High/Medium: production protocol integrity, authorization, accounting, certification, or platform-availability impact?
+
+## Target
+- File/function: `rs/nervous_system/common/src/binary_search.rs`::mid
+- Entrypoint: a below-threshold protocol peer supplies validly framed but adversarial protocol data
+- Attacker controls: serialized request fields, timing, retries, message order, payload sizes, and cross-component state references
+- Exploit idea: force an edge-case error path to commit partial state or skip required cleanup
+- Invariant to test: publicly reachable edge cases must fail closed without bypassing consensus, accounting, or certification invariants
+- Expected HackenProof impact: HackenProof High/Medium: production protocol integrity, authorization, accounting, certification, or platform-availability impact
+- Fast validation: add a focused unit/state-machine/fuzz test around the module boundary and assert rejection or invariant preservation

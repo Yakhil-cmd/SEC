@@ -1,0 +1,13 @@
+# Q448: crypto: threshold sign bounds/overflow
+
+## Question
+Can an unprivileged attacker enter through public signature or threshold-signing request path and drive `rs/crypto/internal/crypto_service_provider/src/vault/local_csp_vault/threshold_sig/mod.rs`::threshold_sign with attacker-controlled signature algorithms, threshold contexts, node IDs, registry versions, and malformed group elements to hit boundary values for lengths, amounts, timestamps, heights, and indexes to cause aliasing or overflow; specifically, can this make verification accept a share/transcript under the wrong domain, registry version, or signer set, violating the invariant that malformed encodings and invalid curve/group elements must be rejected before key use, and produce HackenProof Critical/High: subnet key-share disclosure, unauthorized threshold signature, or authentication bypass?
+
+## Target
+- File/function: `rs/crypto/internal/crypto_service_provider/src/vault/local_csp_vault/threshold_sig/mod.rs`::threshold_sign
+- Entrypoint: public signature or threshold-signing request path
+- Attacker controls: signature algorithms, threshold contexts, node IDs, registry versions, and malformed group elements
+- Exploit idea: make verification accept a share/transcript under the wrong domain, registry version, or signer set
+- Invariant to test: malformed encodings and invalid curve/group elements must be rejected before key use
+- Expected HackenProof impact: HackenProof Critical/High: subnet key-share disclosure, unauthorized threshold signature, or authentication bypass
+- Fast validation: fuzz encodings/transcripts/signature shares and assert verification rejects cross-domain or malformed variants; include min/max amounts, zero values, max heights, oversized payloads, and duplicate IDs

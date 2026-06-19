@@ -1,0 +1,13 @@
+# Q1732: ledger: transfer replay/idempotency
+
+## Question
+Can an unprivileged attacker enter through public transfer or transfer_from flow and drive `packages/icrc-ledger-client/src/lib.rs`::transfer with attacker-controlled ICRC metadata, allowance expirations, archive callbacks, index sync heights, and duplicate detection fields to replay, repeat, or race an accepted message so the side effect is applied twice or cleanup is skipped; specifically, can this make ledger, archive, index, or Rosetta derive different balances or transaction IDs for one operation, violating the invariant that Rosetta construction/parse/submit must map one signed transaction to one ledger effect, and produce HackenProof High/Critical: theft, illegal minting, fund freezing, or exchange-facing ledger integrity failure?
+
+## Target
+- File/function: `packages/icrc-ledger-client/src/lib.rs`::transfer
+- Entrypoint: public transfer or transfer_from flow
+- Attacker controls: ICRC metadata, allowance expirations, archive callbacks, index sync heights, and duplicate detection fields
+- Exploit idea: make ledger, archive, index, or Rosetta derive different balances or transaction IDs for one operation
+- Invariant to test: Rosetta construction/parse/submit must map one signed transaction to one ledger effect
+- Expected HackenProof impact: HackenProof High/Critical: theft, illegal minting, fund freezing, or exchange-facing ledger integrity failure
+- Fast validation: run ledger/Rosetta state-machine tests with replayed operations and assert balance conservation and one-to-one transaction IDs; repeat the same request before and after callback/timer boundaries and assert exactly-once effects

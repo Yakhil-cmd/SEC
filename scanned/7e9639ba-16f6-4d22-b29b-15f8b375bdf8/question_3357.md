@@ -1,0 +1,13 @@
+# Q3357: execution: round trip reply ordering/race
+
+## Question
+Can an unprivileged attacker enter through a malicious canister invokes public system API calls during update/query execution and drive `rs/canister_sandbox/src/protocol/sbxsvc.rs`::round_trip_reply with attacker-controlled Wasm bytecode, system API arguments, stable-memory offsets, cycles, callbacks, and reject paths to reorder callbacks, gossip artifacts, or timer events to violate exactly-once semantics; specifically, can this cross a sandbox/system-api boundary with malformed memory references or encoded messages, violating the invariant that system API and sandbox IPC must not allow memory isolation or authorization bypass, and produce HackenProof High/Critical: canister integrity loss, unauthorized state mutation, or illegal cycles/funds movement?
+
+## Target
+- File/function: `rs/canister_sandbox/src/protocol/sbxsvc.rs`::round_trip_reply
+- Entrypoint: a malicious canister invokes public system API calls during update/query execution
+- Attacker controls: Wasm bytecode, system API arguments, stable-memory offsets, cycles, callbacks, and reject paths
+- Exploit idea: cross a sandbox/system-api boundary with malformed memory references or encoded messages
+- Invariant to test: system API and sandbox IPC must not allow memory isolation or authorization bypass
+- Expected HackenProof impact: HackenProof High/Critical: canister integrity loss, unauthorized state mutation, or illegal cycles/funds movement
+- Fast validation: run a state-machine test with crafted Wasm and assert state, cycles, callbacks, and certified data after trap/retry paths
