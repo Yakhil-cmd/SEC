@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/handle_stop_dissolve.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f66ab40-de69-40c5-abcc-c3989285c67c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/list_known_neurons_response.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4debdc95-4ac6-4e41-b03d-864a7d290475?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/list_neurons_response.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6c885f9-03f8-4727-b9c9-d0397d4928b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/minimum_dissolve_delay_response.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0e335ea4-09dd-41e2-895f-e3d982ed0fb3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/neuron_response.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_779677b2-84c8-441b-9e60-93cd31057ca0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/pending_proposals_response.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ed4a1da-d3f0-406e-8364-fad4b72c5ddd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/ledger_client/proposal_info_response.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_937da404-9bef-4767-9727-a073979735ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/lib.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e95e5aa-946f-4749-ba55-8a5a345087d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/main.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32b8cd5a-80f8-490e-b1c5-504d2dca5c6b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/models.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3179a833-694d-4ac2-b4e6-540beee68e2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/models/amount.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_325ae40b-371b-4c73-9100-609235d8d418?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/models/operation.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ac0524d6-ff43-4c1a-bd7a-8ad7705d3652?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/models/seconds.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50f7bcb3-fa8c-45f0-b1ab-4da133069313?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/models/timestamp.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_067f5337-c84f-422d-b360-b1a7628bd3b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9fda8fb-d648-4f06-b01e-dc094e9d4151?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request/request_result.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57f361e6-67af-4d42-a373-1d62d5ae2f4b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request/serde_transfer.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ecb80b5-eb27-4b56-b281-4f36ddf14650?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request/transaction_operation_results.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddae81a0-510e-4977-bee1-7825fbf84505?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request/transaction_results.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8adbdc13-4f24-472f-bedb-68e84e5eb8e8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request_handler.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_240886cc-3865-4b0c-9570-e301006be4bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request_handler/construction_combine.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18803ee3-e053-4d0e-a553-16d7c4195e02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request_handler/construction_derive.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc4ca899-aa0e-4667-b3dd-7dd0b4de3042?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request_handler/construction_hash.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c6666d6-3d3a-4482-8e47-2d0968b5b721?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request_handler/construction_metadata.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b41f662b-f505-42a8-97b8-caa478ee36c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/rosetta-api/icp/src/request_handler/construction_parse.rs -> Scope: High. Relatively straightforward attack with significant constrained impact: unauthorized neuron/governance access, canister integrity loss, threshold-signature misuse, ledger/cycles loss or minting under limiting preconditions, or cross-subnet/chain-fusion asset compromise'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8f989be-f856-46ce-8179-21a6f118df9e?mode=deep",
+    "questions_generated": false
+  }
+]
