@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: rs/types/types/src/crypto/threshold_sig/ni_dkg/errors/verify_dealing_error.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0d9e0b6-c4ac-46d0-97f1-a748f41a16f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/crypto/threshold_sig/ni_dkg/id.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_583bc376-1713-4767-801d-f6160c2cf0e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/crypto/threshold_sig/ni_dkg/transcripts_to_retain.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_956f0627-eb73-449a-9b90-129cdb18cb6f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/crypto/vetkd.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ac66b1f-9310-438a-9158-e650e8257996?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/exhaustive.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cec2c8da-af15-4e73-a01e-ec7b0ce007fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/hostos_version.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2e46fcb-7bc3-4418-aacb-42c8ebb39392?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/ingress.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_250df1c4-5fa7-45ee-a93c-c8b6fc4a8f80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/lib.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d828e6f4-9b8d-4b0f-8e16-784af7cf4c88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/malicious_behavior.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41ab4f01-6f19-4593-aeb8-f5f6c29e9045?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/malicious_flags.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a316aeb0-fe59-41d7-bf07-452b157c8715?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_493caf7f-0322-483f-876e-d0d7a21b0658?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/blob.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f4532bc-780e-4232-87d1-2395d895947c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/http.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_912ffb8d-f54e-4d75-8fb2-5512ba2d2ed3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/ingress_messages.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_84cf8b71-2059-4767-b4aa-2c4974d80255?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/inter_canister.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ecdc5a6-0579-45a3-ba41-3b1b3677a1bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/message_id.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_263415ba-9502-498f-98a3-e3a0d5b79d99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/query.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_739d367e-f8e5-4ef5-954b-61256bcbc0f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/read_state.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_983729f2-dd1b-4d19-8dac-42a671bd9dad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/messages/webauthn.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d78022b-1b27-48d1-8f98-98f64c1b3bc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/methods.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b86db12f-9cff-4877-a0b4-69c0fc2b74fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/registry.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d735c753-c7b4-48f6-b54d-3adca204bfae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/replica_config.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c9b61f5-9f06-4f18-820c-976f3edacad6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/replica_version.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_751e2366-c35a-4114-87ec-411b7def1ca0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/signature.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1bc3273f-a3f1-4cd1-b443-60d3cc5381ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/types/types/src/state_manager.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06e4426a-e95f-4893-ba56-46e070e16e72?mode=deep",
+    "questions_generated": false
+  }
+]
