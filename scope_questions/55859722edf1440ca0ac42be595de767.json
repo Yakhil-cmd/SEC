@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/api/dkg_errors/conversions.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6a57606-e1b2-4435-be81-0b2ea502e025?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/api/dkg_errors/imported_conversions.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c54513e-72e6-4516-be19-8e129bce976c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/api/ni_dkg_errors.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70ecc9fc-8bca-42c3-8ed7-39599a45321b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/api/threshold_sign_error.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8db3737d-664d-4bf0-87a0-376e142bd8d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/cache.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8deb1b8b-fd66-4791-92ef-877053ec3cce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/crypto.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53950782-c1f5-44fc-a991-1f4f0f483b29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/lib.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d56904ea-e37d-4b7c-a5a4-2e0e61a50b91?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/chunking.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df1ff171-cb02-4c48-96d7-4299a0769808?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/dlog_recovery.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fbe5eef-7ba8-4d13-8359-12d5df129271?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/encryption_key_pop.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45ce344b-8ac3-4569-91dd-3542839270f6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/forward_secure.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e63c79a4-b8d0-48d0-9f51-774137ba5984?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/mod.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7dbcdc5f-328e-4bef-b1e2-87463c609797?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/nizk_chunking.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b65127cb-2101-423d-943e-30ff0cb33488?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/nizk_sharing.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d569531-6629-4efb-a87d-2adf2b774610?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/fs_ni_dkg/random_oracles.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f45d07ee-d61f-4798-907b-82ae04bd2684?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/groth20_bls12_381/dealing.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1dfb166e-ff32-45ab-a242-af413601f469?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/groth20_bls12_381/encryption.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d1f65c84-8725-40cf-ae42-37e0b45b9f2f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/groth20_bls12_381/mod.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d8ba18d-6288-4030-91d1-af67deba80a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/groth20_bls12_381/transcript.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5826a799-3607-42b6-819c-afe9e77527ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/groth20_bls12_381/types.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_385a5572-83d5-4a10-b493-581eb8b69479?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/groth20_bls12_381/types/arbitrary.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bd2e07a-9a1c-4cb7-a07a-e5af7827a9bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/mod.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21f9dea2-0dea-44db-9311-d1fc69ebe085?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/ni_dkg/types.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2496a21-99cd-4ce5-9625-b8e1d31167c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/types.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75c11b8f-3cd0-46b0-9d62-10f31f1604b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/crypto/internal/crypto_lib/threshold_sig/bls12_381/src/types/arbitrary.rs -> Scope: Medium. Difficult or conditional attack with moderate impact: non-volumetric platform-level crash of a single replica, constrained subnet availability issue requiring node/boundary-node positioning, limited key/session/funds exposure, or memory corruption with narrow exploitability'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0cbab2ae-8f23-4c56-841c-bdc20455b252?mode=deep",
+    "questions_generated": false
+  }
+]
