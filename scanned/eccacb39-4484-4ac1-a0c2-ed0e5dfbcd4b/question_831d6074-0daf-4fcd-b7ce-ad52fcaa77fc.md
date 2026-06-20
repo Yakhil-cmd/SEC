@@ -1,1 +1,0 @@
-[File: 'rs/https_outcalls/adapter/src/cli.rs -> Scope: Medium'] [Function: Cli::get_config / Config deserialization] Can an unprivileged attacker who controls the adapter config file (e.g., via a misconfigured deployment pipeline or writable config directory) supply `{\

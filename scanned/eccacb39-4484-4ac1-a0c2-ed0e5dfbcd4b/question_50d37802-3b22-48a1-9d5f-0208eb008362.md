@@ -1,1 +1,0 @@
-[File: 'rs/https_outcalls/adapter/src/cli.rs -> Scope: Medium'] [Function: Cli::get_config / serde_json::from_reader / unknown field handling] Can an attacker who controls the config file supply a JSON object with thousands of unknown fields (e.g., `{\
