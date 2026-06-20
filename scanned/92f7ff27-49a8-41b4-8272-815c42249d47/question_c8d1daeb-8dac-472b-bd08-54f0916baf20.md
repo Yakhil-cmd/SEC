@@ -1,1 +1,0 @@
-[File: 'rs/nervous_system/common/build_metadata/src/lib.rs -> Scope: Critical'] [Function: define_get_build_metadata_candid_method / candid_method(query, rename)] Can an unprivileged attacker exploit the `rename = \
