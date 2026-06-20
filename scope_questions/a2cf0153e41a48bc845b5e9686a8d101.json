@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/fees/mod.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dad76d6a-b868-4d2d-a648-e8a05bbc5d0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/guard.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05424efd-a097-4354-b830-5ecc0f37cb9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/lib.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_644e1c75-d9d4-48d9-b70f-771180fb1c99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/lifecycle.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ccf1b006-6183-48a8-9480-eb050f90b632?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/lifecycle/init.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_549ceac2-de38-40ed-a755-3c394061fc61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/lifecycle/upgrade.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f12d6061-7fbb-4340-bbca-ca6d551de9f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/logs.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_893028b6-89d8-470a-a9a9-8703b8eefcdd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/main.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9e58126-1aa5-46ee-942c-35d63b49f635?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/management.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75774e6a-855e-49ca-b58b-c1643f078318?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/memo.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15e26085-48ea-4888-9d9f-15b3834581e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/metrics.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0579792a-3f98-460f-b503-25cf6c83498e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/queries.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_233b46e0-2077-4e48-a3dd-d8f4706fd680?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/reimbursement/mod.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c55e2daa-15e2-443b-a5a1-4585233e5d7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/signature.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71d46da1-f336-409c-ab54-64bc0fd965cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/state.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d203ceb8-a9dc-4c8a-bd59-d030d6703935?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/state/audit.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5925b4b6-e4d2-4e0c-b6f4-78f07cf50328?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/state/eventlog.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_086af71f-fc59-4581-ab6d-500e1a0a00cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/state/invariants.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f3caa165-a0f8-4a65-b4fc-935a53d8b374?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/state/utxos.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b29b198f-a47c-4723-9877-cbdb8cc48496?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/storage.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_231ef8ca-a4c7-4005-8916-5f9061caa7b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/tasks.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ae95d183-a79e-4801-bb60-e7c938d62c9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/tx.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6d889f7-776f-458b-b7e1-4896c058a44e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/updates.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6608d3c1-708e-4d73-8361-93261ef17724?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/updates/get_btc_address.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_abf362dd-2a01-447d-834c-7624078d48fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rs/bitcoin/ckbtc/minter/src/updates/get_withdrawal_account.rs -> Scope: Critical. Easy unprivileged or low-cost attack with severe global impact: arbitrary block insertion/finalization, consensus integrity compromise, subnet key-share disclosure, internal-network RCE, or theft/illegal minting of more than $1M in ICP/Cycles/assets'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_002082bb-11fa-4f48-b537-48a25512c845?mode=deep",
+    "questions_generated": false
+  }
+]
