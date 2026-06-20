@@ -1,1 +1,0 @@
-[File: 'rs/sns/governance/src/proposal.rs -> Scope: Medium'] [Function: validate_and_render_set_topics_for_custom_proposals (line 1980-1985)] Can a governance participant submitting a SetTopicsForCustomProposals proposal with a mix of unknown-topic and unspecified-topic function IDs trigger the bug at line 1984 where `functions_with_unspecified_topics.join(\
