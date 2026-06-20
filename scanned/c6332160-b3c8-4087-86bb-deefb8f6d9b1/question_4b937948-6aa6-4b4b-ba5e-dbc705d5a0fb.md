@@ -1,0 +1,1 @@
+[File: 'rs/nns/governance/src/governance/tla/mod.rs'] [Function: perform_trace_check / check_tla_code_link / new_module_with_predicates_and_constants] Can an unprivileged governance participant craft a neuron operation that produces a TLA state pair where a variable name in the pre/post state contains TLA+ syntax characters (e.g., `\\`, `\

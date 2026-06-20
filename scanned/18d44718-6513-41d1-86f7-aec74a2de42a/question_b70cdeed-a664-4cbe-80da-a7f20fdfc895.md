@@ -1,0 +1,1 @@
+[File: 'rs/rosetta-api/icrc1/src/data_api/types.rs -> Scope: Medium'] [Function: storage_operations::get_block_at_idx / get_block_at_next_idx] Can an unprivileged HTTP API client, by sending a block identifier with a u64 index value that when formatted via format!(\

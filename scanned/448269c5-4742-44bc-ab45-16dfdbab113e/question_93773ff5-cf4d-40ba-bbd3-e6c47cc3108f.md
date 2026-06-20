@@ -1,0 +1,1 @@
+[File: 'rs/sns/governance/api/src/lib.rs -> Scope: Critical'] [Function: validate_chunked_wasm / perform_upgrade_sns_controlled_canister] Can an unprivileged SNS governance participant with SubmitProposal permission, under the condition that `validate_stored_chunks` is hardcoded to `false` on non-test builds (guarded by `#[cfg(feature = \

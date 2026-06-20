@@ -1,0 +1,1 @@
+[File: 'rs/ledger_suite/icrc1/src/compact_account.rs -> Scope: Medium'] [Function: opt::deserialize] Can an unprivileged caller submitting a CBOR block (e.g., via `icrc3_get_blocks` archive response) under the precondition that `fee_collector` in `BlockWithFlattenedTransaction` uses `#[serde(with = \

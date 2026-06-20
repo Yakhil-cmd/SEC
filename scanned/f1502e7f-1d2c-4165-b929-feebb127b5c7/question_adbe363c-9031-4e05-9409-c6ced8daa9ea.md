@@ -1,0 +1,1 @@
+[File: 'rs/boundary_node/ic_boundary/src/http/handlers.rs -> Scope: High'] [Function: preprocess_request (process.rs lines 69-91) + should_cache_paths] Can an unprivileged API client under the precondition that the subnet read_state cache is enabled trigger cache poisoning of subnet routing table data by: (1) sending a read_state request with paths `[[\
