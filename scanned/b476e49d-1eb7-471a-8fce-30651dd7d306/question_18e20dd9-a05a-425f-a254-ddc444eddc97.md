@@ -1,0 +1,1 @@
+[File: 'rs/rosetta-api/icrc1/src/common/storage/mod.rs'] [Function: storage_operations::get_rosetta_metadata] Can an unprivileged attacker who controls the `key` argument passed to `get_rosetta_metadata` inject arbitrary SQL via the unparameterized `format!(\

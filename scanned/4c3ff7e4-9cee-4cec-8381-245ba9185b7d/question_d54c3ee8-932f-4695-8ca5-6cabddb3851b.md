@@ -1,0 +1,1 @@
+[File: 'rs/cross-chain/blob_store/src/update.rs'] [Function: insert] Can a controller caller insert a zero-length blob (`data = vec![]`) under the precondition that there is no minimum size check, and the SHA-256 of an empty byte slice is a well-known constant, by calling `insert` with `hash = sha256(\

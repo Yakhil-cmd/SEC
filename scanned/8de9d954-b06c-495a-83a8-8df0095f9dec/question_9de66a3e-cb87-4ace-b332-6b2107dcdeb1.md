@@ -1,0 +1,1 @@
+[File: 'rs/registry/canister/src/mutations/do_update_elected_hostos_versions.rs -> Scope: High'] [Function: do_revise_elected_hostos_versions] Can a governance participant submit a ReviseElectedHostosVersionsPayload with release_package_urls=[\

@@ -1,0 +1,1 @@
+[File: 'rs/cross-chain/blob_store/src/update.rs'] [Function: insert / Hash::from_str (lib.rs)] Can a controller caller exploit the `0x`-prefix stripping in `Hash::from_str` (lib.rs line 32) to create a hash aliasing confusion under the precondition that downstream cross-chain consumers compare hash strings rather than parsed `Hash` values, by inserting a blob with hash `\
