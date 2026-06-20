@@ -1,0 +1,1 @@
+[File: 'rs/registry/canister/src/invariants/hostos_version.rs -> Scope: Medium'] [Function: assert_valid_urls_and_hash (called from check_hostos_version_invariants)] Can a governance participant pass a ReviseElectedHostosVersions proposal with release_package_urls=[\

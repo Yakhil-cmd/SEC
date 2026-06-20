@@ -1,0 +1,1 @@
+[File: 'rs/ledger_suite/icp/src/lib.rs -> Scope: High'] [Function: Transaction::hash / serde_cbor packed encoding] Can an unprivileged LEDGER USER submit two semantically distinct transactions that produce the same SHA-256 hash under serde_cbor::ser::to_vec_packed serialization, under the precondition that the icrc1_memo field uses #[serde(skip_serializing_if = \

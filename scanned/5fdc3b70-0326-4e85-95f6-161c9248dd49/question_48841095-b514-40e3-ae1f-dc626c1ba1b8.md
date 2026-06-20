@@ -1,0 +1,1 @@
+[File: 'rs/ethereum/ledger-suite-orchestrator/src/logs/mod.rs -> Scope: Critical'] [Function: PrintProxySink::append + ic_cdk::println! + scheduler task logging] Can an unprivileged attacker, by submitting an AddErc20Arg with a token_name or token_symbol containing format-string-like sequences or JSON-injection payloads (e.g. '},{\

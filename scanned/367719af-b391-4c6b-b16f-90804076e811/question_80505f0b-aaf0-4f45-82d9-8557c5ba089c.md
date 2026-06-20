@@ -1,0 +1,1 @@
+[File: 'rs/registry/canister/src/invariants/hostos_version.rs -> Scope: Medium'] [Function: check_hostos_version_invariants / get_all_hostos_versions_of_nodes] Can an unprivileged governance participant, by passing a DeployHostosToSomeNodes proposal that sets hostos_version_id = Some(\

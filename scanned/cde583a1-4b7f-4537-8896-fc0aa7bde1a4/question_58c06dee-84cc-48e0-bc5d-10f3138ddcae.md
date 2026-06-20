@@ -1,0 +1,1 @@
+[File: 'rs/dogecoin/ckdoge/minter/src/lifecycle/mod.rs'] [Function: StorableEvent::from_bytes / post_upgrade event replay] Can malformed CBOR bytes written into the minter's stable-memory event log (e.g., truncated, type-mismatched, or extra-field CBOR) cause `ciborium::de::from_reader(...).expect(\
