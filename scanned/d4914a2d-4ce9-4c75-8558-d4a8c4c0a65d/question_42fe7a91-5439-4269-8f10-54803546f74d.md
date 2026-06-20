@@ -1,1 +1,0 @@
-[File: 'rs/artifact_pool/src/dkg_pool.rs'] [Function: DkgPoolImpl::apply (MoveToValidated/RemoveFromUnvalidated arms)] Can a race condition between the DKG purger (which calls `Purge(height)` removing all unvalidated messages below a height) and the DKG validator (which emits `MoveToValidated` or `RemoveFromUnvalidated` for the same message) cause the `.expect(\
