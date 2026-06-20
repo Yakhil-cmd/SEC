@@ -1,0 +1,1 @@
+[File: 'rs/nns/governance/src/node_provider_rewards.rs -> Scope: Medium'] [Function: get_most_recent_monthly_node_provider_rewards (governance.rs)] Can a future governance canister upgrade that introduces a new ArchivedMonthlyNodeProviderRewards::Version2 variant, followed by a rollback to the previous version, cause the Some(_) => panic!(\

@@ -1,0 +1,1 @@
+[File: 'rs/p2p/state_sync_manager/src/metrics.rs'] [Function: OngoingStateSyncMetrics::record_chunk_download_result] Can an unprivileged Byzantine peer, by crafting HTTP responses whose body contains arbitrarily long or unique byte sequences, cause the `chunk_download_results_total` IntCounterVec to accumulate unbounded label cardinality if the `#[error(\

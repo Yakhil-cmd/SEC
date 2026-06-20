@@ -1,0 +1,1 @@
+[File: 'rs/registry/transport/src/pb/non_high_capacity_legacy_types.rs -> Scope: Critical'] [Function: RegistryValue / dechunkify_delta (high_capacity.rs) / AgentBasedGetChunk::get_chunk_without_validation] Can an unprivileged attacker who controls a boundary node return an empty chunk body (zero bytes) for a get_chunk query whose content_sha256 equals Sha256::hash(b\

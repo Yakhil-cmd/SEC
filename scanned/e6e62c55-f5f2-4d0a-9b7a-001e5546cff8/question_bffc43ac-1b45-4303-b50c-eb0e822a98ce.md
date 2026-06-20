@@ -1,0 +1,1 @@
+[File: 'rs/sns/governance/src/logs.rs -> Scope: Critical'] [Function: log!(ERROR, ...) in governance.rs error paths + can_be_purged] Can an unprivileged governance participant, by triggering the error path in can_be_purged (line 2452: 'log!(ERROR, \

@@ -1,0 +1,1 @@
+[File: 'rs/node_rewards/rewards_calculation/src/performance_based_algorithm/v2.rs -> Scope: Medium'] [Function: calculate_base_rewards_by_region_and_type / type3_region_key (mod.rs:417-423)] Can a governance participant craft a Type3 node region string with exactly two comma-separated components (e.g., `\

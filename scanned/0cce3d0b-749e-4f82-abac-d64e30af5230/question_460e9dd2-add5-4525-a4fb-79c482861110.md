@@ -1,0 +1,1 @@
+[File: 'rs/crypto/standalone-sig-verifier/src/lib.rs -> Scope: High'] [Function: verify (iccsa/src/api.rs:59-78) + lookup_path_in_tree (iccsa/src/api.rs:161-193)] Can an unprivileged ingress sender submit a canister signature where the CBOR signature tree contains a non-empty leaf at path sig/<seed_hash>/<msg_hash> (e.g., a leaf containing b\

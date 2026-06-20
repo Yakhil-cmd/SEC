@@ -1,0 +1,1 @@
+[File: 'rs/orchestrator/dashboard/src/dashboard.rs -> Scope: Medium'] [Function: build_response / get_authorized_keys in OrchestratorDashboard] Can an unprivileged attacker who can reach port 7070 send repeated GET / requests, under the precondition that each request causes three sequential subprocess spawns (`readonly`, `backup`, `admin`) via `Command::new(\

@@ -1,0 +1,1 @@
+[File: 'rs/replicated_state/src/canister_state/system_state/task_queue/proto.rs -> Scope: Medium'] [Function: TryFrom<pb::TaskQueue> for TaskQueue / paused_or_aborted_task field] Can a crafted checkpoint supply a pb::ExecutionTask with task field set to None (missing oneof) in paused_or_aborted_task, causing ExecutionTask::try_from to return ProxyDecodeError::MissingField(\
