@@ -1,1 +1,0 @@
-[File: 'rs/registry/canister/src/mutations/do_update_elected_hostos_versions.rs -> Scope: Medium'] [Function: do_revise_elected_hostos_versions / assert_sha256 in check_hostos_version_invariants] Can a governance participant elect a HostOS version with a release_package_sha256_hex containing uppercase hex characters (e.g., \

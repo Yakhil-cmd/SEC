@@ -1,1 +1,0 @@
-[File: 'rs/registry/canister/src/mutations/do_update_elected_hostos_versions.rs -> Scope: Medium'] [Function: do_revise_elected_hostos_versions / is_electing_a_version] Can a governance participant craft a ReviseElectedHostosVersionsPayload where hostos_version_to_elect=Some(\
