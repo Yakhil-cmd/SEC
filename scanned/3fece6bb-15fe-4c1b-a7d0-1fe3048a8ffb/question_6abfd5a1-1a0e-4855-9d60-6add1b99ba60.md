@@ -1,1 +1,0 @@
-[File: 'rs/artifact_pool/src/lib.rs -> consensus_pool_cache.rs::update_summary_block'] [Function: update_summary_block] Can a Byzantine block proposer craft a block whose dkg_interval_start_height() returns a value strictly less than the current summary_block height, causing update_summary_block to hit the panic!(\
