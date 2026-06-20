@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request/request_result.rs -> Scope: Medium'] [Function: RequestResult serde / #[serde(flatten)] Status with adjacently-tagged enum] Can an unprivileged Rosetta API client send a JSON payload where the \

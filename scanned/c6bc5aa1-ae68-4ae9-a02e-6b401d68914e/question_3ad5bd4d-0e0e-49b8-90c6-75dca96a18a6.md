@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request/request_result.rs -> Scope: Medium'] [Function: RequestResultMetadata::try_from(Option<ObjectMap>) / serde_json::from_value] Can an unprivileged Rosetta API client POST a /construction/submit response whose metadata ObjectMap contains a \

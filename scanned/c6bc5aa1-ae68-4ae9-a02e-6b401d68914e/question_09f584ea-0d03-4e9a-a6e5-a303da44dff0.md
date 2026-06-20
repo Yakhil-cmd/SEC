@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request/request_result.rs -> Scope: Medium'] [Function: convert::from_transaction_operation_results / Status::from_name] Can an unprivileged Rosetta API client submit a ConstructionSubmitResponse whose metadata encodes an Operation with status=\
