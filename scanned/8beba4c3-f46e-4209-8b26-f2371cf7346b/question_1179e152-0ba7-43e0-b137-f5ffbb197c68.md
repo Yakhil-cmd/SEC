@@ -1,0 +1,1 @@
+[File: 'rs/validator/ingress_message/src/lib.rs -> Scope: Medium'] [Function: validate_request / to_validation_error / to_authentication_lib_error] Can an unprivileged sender triggering an InvalidBasicSignature error from the inner ic_validator layer under the precondition that to_authentication_lib_error converts CryptoError to String via format!(\

@@ -1,0 +1,1 @@
+[File: 'rs/boundary_node/rate_limits/canister/confidentiality_formatting.rs -> Scope: High'] [Function: InputRule::rule_as_json / InputConfig::try_from in types.rs] Can an authorized FullAccess caller under the precondition that serde_json::Value represents JSON numbers as either Number(integer) or Number(float) trigger the call sequence (1) submit config with rule_raw=b'{\
