@@ -1,1 +1,0 @@
-[File: 'packages/ic-pub-key/src/lib.rs -> Scope: Medium'] [Function: derive_ecdsa_key / derive_schnorr_key (line 439, 470) / DerivedPublicKey::chain_code] Can a future code refactor or feature-flag misconfiguration under the precondition that derive_ecdsa_key calls dk.chain_code().expect(\
