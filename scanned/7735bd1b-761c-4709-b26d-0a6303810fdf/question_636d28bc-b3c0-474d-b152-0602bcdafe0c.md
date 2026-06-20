@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request_handler/construction_metadata.rs -> Scope: High'] [Function: construction_metadata / options deserialization internal_error exposure] Can an unprivileged API client send a ConstructionMetadataRequest with a malformed options ObjectMap (e.g., {\
