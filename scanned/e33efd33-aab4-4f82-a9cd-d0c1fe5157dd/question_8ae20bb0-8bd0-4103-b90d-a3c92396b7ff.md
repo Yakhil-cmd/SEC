@@ -1,0 +1,1 @@
+[File: 'rs/bitcoin/ckbtc/minter/src/logs.rs -> Scope: Critical'] [Function: http_request / queries::http_request / canlog::Log::serialize_logs] Can an unprivileged BOUNDARY NODE CLIENT who sends a single HTTP query to /logs with no parameters cause the serialize_logs(MAX_BODY_SIZE=2_000_000) binary search to return '{\

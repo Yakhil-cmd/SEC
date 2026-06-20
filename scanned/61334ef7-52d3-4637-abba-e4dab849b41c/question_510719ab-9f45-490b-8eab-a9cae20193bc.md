@@ -1,0 +1,1 @@
+[File: 'rs/crypto/internal/crypto_service_provider/src/secret_key_store/mod.rs -> Scope: Medium'] [Function: ProtoSecretKeyStore::sks_data_from_disk_or_new / key_id_from_hex] Can a crafted or corrupted SKS protobuf file containing a key_id_to_secret_key_v1 map entry with a non-hex or wrong-length key ID string cause key_id_from_hex (proto_store.rs:27: panic!(\
