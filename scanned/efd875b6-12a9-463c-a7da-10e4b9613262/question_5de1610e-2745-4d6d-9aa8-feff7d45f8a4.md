@@ -1,0 +1,1 @@
+[File: 'rs/nervous_system/neurons_fund/src/lib.rs'] [Function: PolynomialMatchingFunction::from_repr / F1Cache::new] Can an unprivileged governance participant, under the precondition that PolynomialMatchingFunction::from_repr calls serde_json::from_str without validating that t_1 != t_2, craft a serialized_representation JSON with t_1 == t_2 (e.g., '{\

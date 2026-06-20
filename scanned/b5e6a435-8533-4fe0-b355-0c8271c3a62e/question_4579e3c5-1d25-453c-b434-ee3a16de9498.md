@@ -1,0 +1,1 @@
+[File: 'rs/http_endpoints/public/src/dashboard.rs -> Scope: Medium'] [Function: dashboard / template exports debug string check interaction with HTML escaping] Can an unprivileged canister developer craft export function names containing HTML-special characters (e.g. `<`, `>`, `&`, `\

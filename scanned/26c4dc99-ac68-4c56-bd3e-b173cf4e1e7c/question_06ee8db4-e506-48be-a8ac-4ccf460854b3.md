@@ -1,0 +1,1 @@
+[File: 'rs/orchestrator/src/dashboard.rs'] [Function: get_scheduled_upgrade / build_response] Can an unprivileged network peer who can reach port 7070 poll the dashboard at high frequency to detect the exact moment a replica version upgrade is scheduled (line 168: `format!(\

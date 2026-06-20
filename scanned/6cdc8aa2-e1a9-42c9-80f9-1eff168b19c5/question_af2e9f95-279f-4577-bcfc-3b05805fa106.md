@@ -1,0 +1,1 @@
+[File: 'rs/ledger_suite/icrc1/src/hash.rs -> Scope: Critical'] [Function: hash_value / Value::Map branch] Can an unprivileged ledger user craft two structurally distinct CBOR-encoded ICRC-1 transactions whose CBOR maps contain keys of different types (Value::Text(\

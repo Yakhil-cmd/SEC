@@ -1,0 +1,1 @@
+[File: 'rs/interfaces/src/crypto/keygen.rs -> Scope: Medium'] [Function: check_keys_with_registry / from (CryptoError -> CheckKeysWithRegistryError)] Can a malformed TLS certificate in the registry (e.g., certificate_der = b\
