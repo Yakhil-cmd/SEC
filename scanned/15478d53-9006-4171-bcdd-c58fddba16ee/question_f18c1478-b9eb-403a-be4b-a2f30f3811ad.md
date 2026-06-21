@@ -1,1 +1,0 @@
-[File: 'rs/embedders/src/wasmtime_embedder/linker.rs -> Scope: Medium'] [Function: __::internal_trap (lines 1494-1548)] Can a canister that directly calls `__::internal_trap` with an `err_code` value that maps to `InternalErrorCode::Unknown` (line 1540) cause the error message to include the raw `err_code` integer in the trap message `format!(\
