@@ -1,1 +1,0 @@
-[File: 'rs/http_endpoints/metrics/src/lib.rs -> Scope: High'] [Function: metrics_endpoint / AdapterMetricsRegistry::gather] Can an unprivileged attacker perform a multi-step attack: (1) send a scrape request with 'X-Prometheus-Scrape-Timeout-Seconds: 0.000001' to force all adapter scrapes to fail, (2) observe that 'adapter_metrics_scrape_duration_seconds{status_code!=\
