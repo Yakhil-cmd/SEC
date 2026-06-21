@@ -1,1 +1,0 @@
-[File: 'packages/canlog/src/lib.rs -> Scope: Medium'] [Function: Log::serialize_logs] Can an unprivileged HTTP query caller, under the precondition that max_body_size is passed as 0 or any value less than 14 (the byte length of '{\
