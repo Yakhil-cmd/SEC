@@ -1,1 +1,0 @@
-[File: 'rs/registry/helpers/src/hostos_version.rs -> Scope: High'] [Function: HostosVersion::try_from / get_node_hostos_version / check_for_upgrade cross-module] Can a governance participant, under preconditions where HostosVersion::try_from(\
