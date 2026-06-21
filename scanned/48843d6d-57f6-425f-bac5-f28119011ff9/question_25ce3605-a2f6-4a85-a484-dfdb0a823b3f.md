@@ -1,1 +1,0 @@
-[File: 'rs/nns/governance/src/governance/tla/spawn_neurons.rs -> Scope: High'] [Function: spawn_neuron / governance.rs:2643-2647] Can an attacker with controller access to a neuron with `maturity_e8s_equivalent` near `u64::MAX / 100` trigger the `expect(\
