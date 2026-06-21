@@ -1,1 +1,0 @@
-[File: 'rs/http_endpoints/public/src/dashboard.rs -> Scope: Critical'] [Function: dashboard / dashboard.html template] Can an unprivileged canister developer deploy a canister with the maximum allowed number of exported functions (1000) each with a name at the maximum allowed total length (20000 bytes), causing format!(\
