@@ -1,1 +1,0 @@
-[File: 'rs/ethereum/ledger-suite-orchestrator/src/logs/mod.rs -> Scope: High'] [Function: Log::serialize_logs] Can an unprivileged caller under the precondition that max_body_size=0 is passed to serialize_logs trigger the binary-search loop where every mid=0 truncation produces '{\
