@@ -1,1 +1,0 @@
-[File: 'rs/nervous_system/common/build_metadata/src/lib.rs -> Scope: Medium'] [Function: define_get_build_metadata_candid_method / get_build_metadata_ (Candid interface mismatch)] Can an unprivileged attacker exploit a mismatch between the Candid interface declared by `#[candid::candid_method(query, rename = \
