@@ -1,1 +1,0 @@
-[File: 'packages/canlog/src/lib.rs -> Scope: Medium'] [Function: PrintProxySink::append (message format injection)] Can an unprivileged inter-canister message sender, under the precondition that a canister logs inter-canister message content directly (e.g., log!(Priority::Info, \
