@@ -1,1 +1,0 @@
-[File: 'rs/http_endpoints/public/src/catch_up_package.rs -> Scope: Medium'] [Function: cup (line 73-74)] Can an unprivileged HTTP client sending a valid CBOR-encoded CatchUpPackageParam body trigger the `.expect(\
