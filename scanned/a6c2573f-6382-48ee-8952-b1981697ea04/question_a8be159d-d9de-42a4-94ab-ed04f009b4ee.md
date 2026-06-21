@@ -1,1 +1,0 @@
-[File: 'rs/crypto/iccsa/src/api.rs -> Scope: Critical'] [Function: verify / lookup_path_in_tree] Can an unprivileged attacker craft a LabeledTree where the sig/<seed_hash>/<msg_hash> path resolves to a non-empty Leaf (e.g., Leaf(b\

@@ -1,1 +1,0 @@
-[File: 'rs/crypto/iccsa/src/api.rs -> Scope: Critical'] [Function: verify_certified_data / verify_certified_data_with_cache_for_canister_sig] Can an unprivileged attacker submit a canister signature whose embedded delegation certificate carries subnet_type=Some(\
