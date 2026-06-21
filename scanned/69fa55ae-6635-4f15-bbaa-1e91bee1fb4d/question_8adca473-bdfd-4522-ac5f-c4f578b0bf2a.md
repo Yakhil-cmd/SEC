@@ -1,1 +1,0 @@
-[File: 'rs/nervous_system/common/src/ledger.rs -> Scope: Medium'] [Function: compute_neuron_disburse_subaccount_bytes / compute_neuron_split_subaccount_bytes] Can an unprivileged neuron controller, knowing that compute_neuron_disburse_subaccount_bytes uses domain b\
