@@ -1,1 +1,0 @@
-[File: 'rs/crypto/standalone-sig-verifier/src/sign_utils.rs -> Scope: Medium'] [Function: user_public_key_from_bytes (COSE branch, line 87-97) + cose::parse_cose_public_key] Can an unprivileged ingress sender supply a DER-wrapped COSE key whose CBOR encoding has key_ops set to an array value (e.g., [\

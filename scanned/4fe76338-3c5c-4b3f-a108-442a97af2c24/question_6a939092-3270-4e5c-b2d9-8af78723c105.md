@@ -1,1 +1,0 @@
-[File: 'rs/crypto/standalone-sig-verifier/src/lib.rs -> Scope: Medium'] [Function: verify_canister_sig -> iccsa::verify -> lookup_path_in_tree] Can an unprivileged ingress sender craft a canister-signature where the MixedHashTree contains a valid sig/<seed_hash>/<msg_hash> path but the leaf value is non-empty (e.g., a single byte 0x01 instead of the required empty leaf b\
