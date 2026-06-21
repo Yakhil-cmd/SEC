@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/common/rosetta_core/src/miscellaneous.rs -> Scope: Critical'] [Function: get_rosetta_metadata (storage_operations/mod.rs:196)] Can an unprivileged API caller under the precondition that any code path passes attacker-controlled string data as the `key` argument to `get_rosetta_metadata` trigger the SQL query `format!(\
