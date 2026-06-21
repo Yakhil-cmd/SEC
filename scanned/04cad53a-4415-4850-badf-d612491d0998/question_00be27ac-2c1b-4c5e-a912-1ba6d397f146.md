@@ -1,4 +1,0 @@
-[File: 'rs/sns/governance/src/logs.rs -> Scope: High'] [Function: declare_log_buffer!(INFO/ERROR) / http_request -> /journal/json -> serve_journal] Can an unprivileged HTTP client, under the precondition that the SNS governance canister has executed at least one UpgradeSnsToNextVersion proposal, query the unauthenticated /journal/json endpoint to retrieve the full upgrade journal including all WASM hashes of deployed SNS canister versions, violating the invariant that internal version state (which could reveal unpatched versions or upgrade timing) must not be disclosed to unauthenticated observers, causing scoped impact: canister integrity loss by enabling targeted exploitation of known-vulnerable WASM versions identified from the journal? Proof idea: state-machine test that executes an upgrade proposal, then issues an unauthenticated http_request to /journal/json and asserts that governance_wasm_hash and
-
-```python
-questions = [
