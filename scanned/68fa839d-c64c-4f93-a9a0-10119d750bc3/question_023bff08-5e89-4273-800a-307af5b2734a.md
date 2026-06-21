@@ -1,1 +1,0 @@
-[File: 'rs/replicated_state/src/canister_state/system_state/log_memory_store/memory.rs -> Scope: High'] [Function: RingBuffer::load_checked magic-only validation + struct_io::load_header unchecked field deserialization] Can an unprivileged canister developer, by crafting a state-sync chunk that contains a PageMap with magic=b\
