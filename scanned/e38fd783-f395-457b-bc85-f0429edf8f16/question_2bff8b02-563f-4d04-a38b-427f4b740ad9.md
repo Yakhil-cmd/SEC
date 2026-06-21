@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request_handler/construction_derive.rs -> Scope: Critical'] [Function: construction_derive / ConstructionDeriveRequestMetadata::try_from / serde_json duplicate keys] Can an unprivileged HTTP client submit a POST /construction/derive with a metadata JSON object containing duplicate keys (e.g., {\
