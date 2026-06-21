@@ -1,1 +1,0 @@
-[File: 'rs/types/types/src/replica_version.rs -> Scope: Medium'] [Function: set_default_version / Default impl race] Can a test harness or initialization code that calls ReplicaVersion::default() before set_default_version is called cause DEFAULT_VERSION_ID to be initialized from env!(\
