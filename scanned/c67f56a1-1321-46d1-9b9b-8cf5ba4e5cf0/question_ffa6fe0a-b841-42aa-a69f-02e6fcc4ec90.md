@@ -1,1 +1,0 @@
-[File: 'rs/p2p/state_sync_manager/src/routes/mod.rs'] [Function: state_sync_chunk_handler / zstd::bulk::compress .expect()] Can a StateSyncClient::chunk() implementation return a Chunk whose raw protobuf-encoded bytes cause zstd::bulk::compress to fail (e.g., internal zstd allocation failure under memory pressure), triggering the .expect(\
