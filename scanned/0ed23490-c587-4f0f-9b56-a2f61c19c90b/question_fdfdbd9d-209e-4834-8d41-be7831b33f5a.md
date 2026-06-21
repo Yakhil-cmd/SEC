@@ -1,1 +1,0 @@
-[File: 'rs/sns/governance/api/src/topics.rs -> Scope: Medium'] [Function: Governance::list_topics / topics.rs:205] Can an unprivileged ATTACKER register an SNS extension whose stable-memory ExtensionSpec encodes a topic i32 value that does not map to any known Topic variant, then call list_topics, triggering the unconditional .expect(\
