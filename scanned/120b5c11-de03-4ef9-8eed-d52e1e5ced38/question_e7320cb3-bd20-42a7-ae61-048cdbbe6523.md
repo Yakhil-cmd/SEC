@@ -1,1 +1,0 @@
-[File: 'rs/nervous_system/timer_task/src/metrics.rs -> Scope: Critical'] [Function: MetricsRegistry::encode (prefix format string)] Can an unprivileged actor, by registering a governance timer task whose NAME constant contains Prometheus label syntax characters (e.g., '{', '}', '\
