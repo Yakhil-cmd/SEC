@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request_handler.rs -> Scope: Medium'] [Function: get_block (hash-only branch)] Can an unprivileged API client, by sending a /block or /block/transaction request with only a block hash (no index) while the Rosetta node is running in RosettaBlocksMode::Enabled, trigger the unconditional `todo!(\
