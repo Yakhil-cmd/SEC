@@ -1,1 +1,0 @@
-[File: 'rs/types/types/src/replica_version.rs -> Scope: Critical'] [Function: TryFrom<&str> for ReplicaVersion / is_valid_version_symbol] Can an unprivileged P2P peer inject a consensus artifact (BlockProposal, EquivocationProof, DkgMessage, CatchUpPackageShare) whose protobuf `version` field is the empty string `\
