@@ -1,1 +1,0 @@
-[File: 'rs/bitcoin/ckbtc/minter/src/fees/mod.rs -> Scope: Medium'] [Function: estimate_nth_fee] Can an unprivileged boundary-node client cause the estimate_withdrawal_fee query endpoint to panic (replica trap) by passing amount=Some(u64::MAX) when the minter has no available UTXOs, triggering the `panic!(\
