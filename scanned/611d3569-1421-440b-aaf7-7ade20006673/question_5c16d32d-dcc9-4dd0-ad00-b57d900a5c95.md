@@ -1,1 +1,0 @@
-[File: 'rs/messaging/src/message_routing.rs -> Scope: Medium'] [Function: StreamHandlerImpl::handle_rejected_messages / reroute_message] Can a Byzantine peer subnet, by sending a reject signal for a response or refund message whose receiver canister has been deleted from the routing table (no longer routable), trigger the `.expect(\

@@ -1,1 +1,0 @@
-[File: 'rs/messaging/src/message_routing.rs -> Scope: Medium'] [Function: DemuxImpl::process_payload / decode_valid_certified_stream_slice] Can a Byzantine peer subnet, by causing a consensus block to include a `CertifiedStreamSlice` whose payload bytes are syntactically invalid (e.g., truncated or non-canonical protobuf/CBOR), trigger the `.expect(\
