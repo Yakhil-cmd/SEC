@@ -1,1 +1,0 @@
-[File: 'rs/replica/src/lib.rs -> setup_ic_stack.rs'] [Function: construct_ic_stack / COMPLETED_EXECUTION_MESSAGES_BUFFER_SIZE channel]
