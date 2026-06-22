@@ -1,1 +1,0 @@
-[File: 'rs/boundary_node/ic_boundary/src/http/middleware/subnet_read_state_cache.rs -> Scope: Medium'] [Function: subnet_read_state_cache_middleware / should_cache_paths] Can an unprivileged API client, by crafting a subnet read_state CBOR envelope with paths `[[b\

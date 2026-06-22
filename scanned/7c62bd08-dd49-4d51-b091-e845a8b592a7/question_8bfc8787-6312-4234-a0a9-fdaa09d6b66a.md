@@ -1,1 +1,0 @@
-[File: 'rs/boundary_node/ic_boundary/src/http/middleware/validate.rs -> Scope: Medium'] [Function: validate_canister_request / validate_subnet_request] Can an unprivileged HTTP client craft a request whose axum MatchedPath does not match any of the seven known PATH_* constants, causing the `_ => panic!(\
