@@ -1,1 +1,0 @@
-[File: 'rs/crypto/internal/crypto_lib/bls12_381/vetkd/src/lib.rs -> Scope: Medium'] [Function: DerivationContext::new / derive_key] Can a canister caller observe that DerivationContext::new maps context=b\
