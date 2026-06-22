@@ -1,1 +1,0 @@
-[File: 'rs/consensus/chain_key/src/metrics.rs'] [Function: payload_errors_inc / reject_if_invalid (key_id label with special characters)] Can an unprivileged canister developer, by participating in governance to enable a key whose name contains Prometheus text format special characters (e.g., newlines '\\n', backslashes '\\\\', or label delimiters '}' and '\
