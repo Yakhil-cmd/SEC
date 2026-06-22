@@ -1,0 +1,1 @@
+Let me look at the `sent_transactions_to_finalize` implementation and the SNS swap finalize function more carefully.
