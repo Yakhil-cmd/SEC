@@ -1,0 +1,1 @@
+Let me trace the actual execution order in the scheduler code to verify this claim.
