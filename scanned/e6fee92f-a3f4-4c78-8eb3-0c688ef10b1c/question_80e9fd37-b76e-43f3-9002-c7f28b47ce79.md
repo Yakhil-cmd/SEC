@@ -1,1 +1,0 @@
-[File: 'rs/types/types/src/replica_version.rs -> Scope: Critical'] [Function: TryFrom<&str> for ReplicaVersion / is_valid_version_symbol / check_replica_version_invariants] Can an attacker submit a governance proposal to elect a replica version with a version ID consisting only of dots (e.g., `\
