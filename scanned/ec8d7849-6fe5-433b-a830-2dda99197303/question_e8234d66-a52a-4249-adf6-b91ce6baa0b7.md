@@ -1,4 +1,0 @@
-[File: 'rs/crypto/internal/crypto_lib/basic_sig/ed25519/src/api.rs -> Scope: High'] [Function: public_key_to_der / public_key_from_der] Can an unprivileged ingress sender supply a sender_pubkey that is the DER encoding of an invalid Ed25519 point (e.g. a torsion-component or off-curve point) produced via public_key_to_der() / convert_raw32_to_der() — which explicitly performs no validity check — such that the DER round-trip through public_key_from_der() / deserialize_rfc8410_der() also skips the torsion check, allowing the invalid key to reach verify() and potentially satisfy the ZIP215 equation for a chosen message, while validate_user_id() accepts the derived principal because PrincipalId::new_self_authenticating() hashes any 44-byte DER blob? Preconditions: attacker knows that convert_raw32_to_der() accepts any 32-byte input
-
-```python
-questions = [
