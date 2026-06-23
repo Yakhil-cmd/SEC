@@ -1,1 +1,0 @@
-[File: 'rs/registry/transport/src/pb/non_high_capacity_legacy_types.rs -> Scope: Critical'] [Function: Registry::from_serializable_form (registry/canister/src/registry.rs)] Can an unprivileged attacker who can trigger a registry canister upgrade (e.g., via a legitimate NNS proposal) cause from_serializable_form to inject synthetic UPSERT mutations on key b\
