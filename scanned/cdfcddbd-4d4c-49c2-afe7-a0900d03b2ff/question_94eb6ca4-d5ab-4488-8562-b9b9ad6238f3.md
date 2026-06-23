@@ -1,1 +1,0 @@
-[File: 'rs/nervous_system/common/build_metadata/src/lib.rs -> Scope: Medium'] [Function: define_get_build_metadata_candid_method / dfn_core::over] Can an unprivileged query caller sending malformed or non-empty Candid bytes (not encoding `()`) to the generated `get_build_metadata` query endpoint on any canister using the dfn_core variant trigger the `.expect(\
