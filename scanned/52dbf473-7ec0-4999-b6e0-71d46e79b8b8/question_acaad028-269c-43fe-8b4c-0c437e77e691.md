@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/models/seconds.rs -> Scope: High'] [Function: Seconds serde Deserialize + SetDissolveTimestampMetadata TryFrom<Option<ObjectMap>> (request_types.rs:492-507)] Can an unprivileged Rosetta API client cause a silent type confusion by submitting a SET_DISSOLVE_TIMESTAMP operation where dissolve_time_utc_seconds is encoded as a JSON string (e.g., '\
