@@ -1,1 +1,0 @@
-[File: 'rs/ethereum/cketh/minter/src/management/mod.rs -> Scope: Medium'] [Function: sign_with_ecdsa (line 108-138) + tx.rs Eip1559TransactionRequest::sign (line 461-485)] Can the `is_x_reduced()` check at tx.rs line 472-474 return `true` for a legitimately generated tECDSA signature (an astronomically rare but non-zero probability event), causing `sign()` to return `Err(\
