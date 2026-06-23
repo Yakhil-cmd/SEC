@@ -1,1 +1,0 @@
-[File: 'rs/sns/governance/src/sns_upgrade.rs -> Scope: Medium'] [Function: get_next_version] Can an unprivileged SNS governance participant, by submitting an UpgradeSnsToNextVersion proposal that passes, cause the SNS-WASM canister to return a network-level error or malformed Candid response to the `.expect(\
