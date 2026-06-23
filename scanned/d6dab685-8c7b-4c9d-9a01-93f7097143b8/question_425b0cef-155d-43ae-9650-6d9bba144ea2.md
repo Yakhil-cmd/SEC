@@ -1,1 +1,0 @@
-[File: 'rs/nervous_system/root/src/private.rs -> Scope: Medium'] [Function: perform_offline_canister_maintenance, operation_description string] Can a governance participant craft a ChangeCanisterRequest with an extremely large wasm_module (up to the ingress limit) causing the operation_description string (format!(\
