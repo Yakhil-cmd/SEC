@@ -1,1 +1,0 @@
-[File: 'rs/replicated_state/src/canister_state/system_state/task_queue/proto.rs -> Scope: Medium'] [Function: TryFrom<pb::TaskQueue> for TaskQueue / AbortedExecution input missing] Can a crafted checkpoint supply an AbortedExecution ExecutionTask with input = None (the oneof field absent), causing ExecutionTask::try_from to return ProxyDecodeError::MissingField(\
