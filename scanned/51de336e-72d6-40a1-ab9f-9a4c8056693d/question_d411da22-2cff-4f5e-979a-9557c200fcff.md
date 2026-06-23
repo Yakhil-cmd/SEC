@@ -1,1 +1,0 @@
-[File: 'rs/registry/helpers/src/hostos_version.rs -> Scope: High'] [Function: ReviseElectedHostosVersionsPayload::is_electing_a_version / validate cross-module] Can a governance participant, under preconditions where release_package_urls = vec![\
