@@ -1,1 +1,0 @@
-[File: 'rs/sns/governance/src/logs.rs -> Scope: Medium'] [Function: log! macro / format! string interpolation in follower_index.rs and governance.rs] Can an attacker craft a neuron following relationship or proposal that causes a governance operation to log a message containing Unicode control characters, null bytes, or JSON-special characters ('{', '}', '\
