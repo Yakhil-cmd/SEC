@@ -1,1 +1,0 @@
-[File: 'rs/http_endpoints/public/src/dashboard.rs -> Scope: Medium'] [Function: dashboard / dashboard.html template] Can an unprivileged canister developer, by deploying a canister with the maximum allowed number of exported functions (1000) each with near-maximum name lengths (~20 bytes each), cause the dashboard handler to allocate a large intermediate string via `format!(\
