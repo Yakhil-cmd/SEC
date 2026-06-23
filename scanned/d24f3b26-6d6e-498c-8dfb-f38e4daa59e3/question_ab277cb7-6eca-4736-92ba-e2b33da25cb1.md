@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request.rs -> Scope: Medium'] [Function: TryFrom<&models::Request> for Request / Spawn nonce=None path] Can an unprivileged API client craft a Spawn ManageNeuronRequest Candid arg with `nonce: None` (spawned_neuron_index absent), causing the check at request.rs:433-444 to return `Err(ApiError::invalid_request(\

@@ -1,1 +1,0 @@
-[File: 'rs/rosetta-api/icp/src/request.rs -> Scope: Medium'] [Function: TryFrom<&models::Request> for Request / empty calls vec] Can an unprivileged API client submit a SignedTransaction where a `models::Request` tuple has an empty `Vec<EnvelopePair>` (i.e., `calls` is empty), causing `calls.first()` at request.rs:237-239 to return None and produce `ApiError::invalid_request(\
