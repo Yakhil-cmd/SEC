@@ -1,1 +1,0 @@
-Let me look at the error definitions and how `HypervisorError` is converted to user-facing errors, plus the `check_log_visibility_permission` function.

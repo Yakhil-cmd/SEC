@@ -1,1 +1,0 @@
-Let me look at the `DeterministicHeapBytes` derive macro for `WasmResult` and the max reply size enforcement to complete the analysis.

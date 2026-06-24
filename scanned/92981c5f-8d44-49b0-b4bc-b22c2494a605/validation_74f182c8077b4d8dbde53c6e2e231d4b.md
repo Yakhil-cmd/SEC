@@ -1,1 +1,0 @@
-Looking at the full assembly pipeline carefully to trace whether the proposed attack path is actually reachable and produces the claimed permanent impact.
