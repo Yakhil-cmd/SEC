@@ -1,1 +1,0 @@
-Let me read the `do_request` function and the `SignedTransaction` model to complete the trace.

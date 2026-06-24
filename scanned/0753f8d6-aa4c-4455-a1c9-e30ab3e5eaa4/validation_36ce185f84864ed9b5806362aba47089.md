@@ -1,1 +1,0 @@
-I need to verify the `record_skipped_block_for_contract` implementation and the contract address configuration before rendering a verdict.
