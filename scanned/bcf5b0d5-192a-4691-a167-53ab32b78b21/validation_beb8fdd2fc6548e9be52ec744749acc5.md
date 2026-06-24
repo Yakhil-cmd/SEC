@@ -1,1 +1,0 @@
-I need to see the rest of `induct_refund` starting at line 1000. I have enough context from what was already loaded — let me read the continuation.
