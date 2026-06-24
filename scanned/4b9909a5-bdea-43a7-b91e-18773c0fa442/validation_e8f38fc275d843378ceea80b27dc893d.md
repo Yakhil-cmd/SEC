@@ -1,1 +1,0 @@
-Let me look at the `PeerCounter` definition in the consensus_manager module specifically.
