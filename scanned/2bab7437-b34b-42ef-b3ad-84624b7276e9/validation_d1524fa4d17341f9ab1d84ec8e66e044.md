@@ -1,1 +1,0 @@
-Looking at the relevant code to evaluate this claim requires examining: (1) the `is_finalizing_disburse_maturity` guard logic, (2) the `run_periodic_tasks` call chain, and (3) the IC execution model's concurrency guarantees.
