@@ -1,1 +1,0 @@
-Looking at the relevant code paths to trace this attack:
