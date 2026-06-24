@@ -1737,3 +1737,106 @@ If not, output exactly:
 No extra text.
 """
     return prompt
+
+
+def validation_format(report: str) -> str:
+    """
+    Generate a strict bounty-style validation prompt for security claims.
+    """
+    prompt = f"""# VALIDATION PROMPT
+
+## Security Claim
+{report}
+
+## Rules
+- Validate only the submitted claim.
+- Check SECURITY.md, Researcher.md if present, and the DFINITY/ICP HackenProof bounty scope for scope, exclusions, and valid impact classes.
+- Do not create a new vulnerability if the submitted claim is weak or invalid.
+- Do not upgrade severity unless the provided evidence proves the higher impact.
+- Reject admin-only, owner-only, governance-majority-only, threshold/subnet-majority corruption, trusted-operator, leaked-key, host-compromise, best-practice, docs/style, config/build-only, gas/cycles-only, and purely theoretical issues.
+- Reject if the exploit requires unrealistic assumptions, victim mistakes, phishing/social engineering, DNS/BGP hijack, third-party exchange/dapp/oracle compromise, public-mainnet DoS testing, raw volumetric DDoS, missing external context, or unsupported protocol behavior.
+- A valid report must be triggerable by an unprivileged user or by a Byzantine protocol peer below the consensus fault threshold, unless the claim proves privilege escalation from an unprivileged path.
+- The final impact must match an in-scope bounty impact, not just a generic code bug.
+- Reject any issue whose final impact is not one of the allowed Internet Computer Protocol bounty impacts listed below.
+- Prefer #NoVulnerability over speculative reports.
+
+## In-Scope Protocol Areas
+The claim must affect production in-scope Internet Computer code or systems, such as:
+- Core Internet Computer Protocol stack: peer-to-peer, consensus, message routing, execution, state manager, p2p/http endpoints, HTTP outcalls, crypto, orchestrator, canister sandbox, embedders, and system API.
+- Governance: NNS, registry, SNS framework and core SNS canisters.
+- Financial integrations: ICP/ICRC ledgers, Rosetta API, ckBTC, ckETH, ckERC20, EVM RPC, Chain Fusion, threshold signing, and related cross-chain components.
+- Internet Identity, boundary nodes, node operating systems, infrastructure explicitly listed in scope, exchange rate canister, Oisy, Orbit, Candid, SDK/CDK/agent tooling, and other explicitly listed DFINITY ICP bounty targets.
+
+Reject third-party dapps, unlisted public websites, tests, docs, examples, mocks, generated files, local deployment helpers, and issues that only affect local developer tooling unless the submitted claim proves a direct in-scope security impact.
+
+## Allowed Impact Scope
+Only these impacts are valid:
+- Critical ($10,000 - $50,000). Easy to perform without special privileges, low cost, and severe global impact.
+- Critical ($10,000 - $50,000). Disclosure of subnet key shares or compromise of threshold signing/key material.
+- Critical ($10,000 - $50,000). Compromise of consensus integrity, including arbitrary invalid block insertion or finalized-chain integrity compromise.
+- Critical ($10,000 - $50,000). Remote code execution in internal networks or protocol components.
+- Critical ($10,000 - $50,000). Theft, permanent loss, illegal minting, or protocol insolvency involving exorbitant ICP/Cycles or in-scope chain-key/ledger assets, especially over $1M.
+- High ($2,000 - $10,000). Relatively straightforward attack with constraints but significant impact.
+- High ($2,000 - $10,000). Unauthorized access to neurons, governance assets, wallets, identities, ledgers, or canister-controlled funds where exploitation requires meaningful per-target work or other constraints.
+- High ($2,000 - $10,000). Memory corruption or execution integrity loss constrained to specific canisters, subnet conditions, or pre-existing properties.
+- High ($2,000 - $10,000). Application/platform-level DoS, crash, consensus blocking, certified-state disruption, or subnet availability impact not based on raw volumetric DDoS.
+- High ($2,000 - $10,000). Significant Chain Fusion, ck-token, ledger, Rosetta, boundary/API, XRC, Internet Identity, NNS, SNS, or infrastructure security impact with concrete user or protocol harm.
+- Medium ($200 - $2,000). Difficult attack requiring significant technical skill, cost, strict target conditions, node/boundary-node control, or substantial constraints, but still with meaningful security impact.
+- Medium ($200 - $2,000). One-time crash of a single replica on an application subnet, limited subnet availability impact, limited client/session-key theft, forged or stale certified response accepted only under constrained conditions, or moderate user-funds/security impact.
+
+Informational, non-security correctness, observability/logging-only, harmless reject/revert, stale read without certification/security impact, local misconfiguration, and non-demonstrably-exploitable reports are invalid for this validation output.
+
+If the submitted claim does not concretely prove one of the allowed ICP bounty impacts above, it is invalid.
+
+## Required Validation Checks
+All must pass:
+1. Exact in-scope file, function, and line/code references.
+2. Clear root cause and broken protocol/security/accounting/authentication/certification assumption.
+3. Reachable exploit path: preconditions -> attacker action -> trigger -> bad result.
+4. Existing checks/guards reviewed and shown insufficient.
+5. Concrete impact that exactly matches one allowed ICP bounty impact above, with realistic likelihood.
+6. Reproducible safe proof path: unit PoC, local replica/PocketIC test, deterministic integration test, invariant/fuzz test, or exact local manual steps.
+7. No obvious rejection reason from SECURITY.md, Researcher.md if present, known issues, privileges, or scope exclusions.
+
+## Silent Triage Questions
+Before output, internally answer:
+- Can a normal external user or below-threshold Byzantine protocol peer trigger this?
+- Does the code actually behave as claimed?
+- Is the impact caused by Internet Computer production code, not by an external dependency alone?
+- Is the consensus/certification/availability/funds-loss/identity/governance impact concrete, not hypothetical?
+- Does the claim avoid governance-majority, subnet-majority, trusted operator, leaked key, mainnet DoS, and third-party compromise assumptions?
+- Would a bounty triager accept the proof?
+- What exact test would prove it?
+
+## Output
+If valid, output exactly:
+
+Audit Report
+
+## Title
+[Clear vulnerability statement] - ([File: file_path])
+
+## Summary
+[2-3 sentence summary of the bug and impact]
+
+## Finding Description
+[Exact code path, root cause, exploit flow, and why existing checks fail]
+
+## Impact Explanation
+[Concrete allowed ICP bounty impact and severity rationale]
+
+## Likelihood Explanation
+[Attacker capability, required conditions, feasibility, repeatability]
+
+## Recommendation
+[Specific fix guidance]
+
+## Proof of Concept
+[Minimal reproducible steps or fuzz/invariant/fork test plan]
+
+If invalid, output exactly:
+#NoVulnerability found for this question.
+
+Output only one of the two outcomes above. No extra text.
+"""
+    return prompt
