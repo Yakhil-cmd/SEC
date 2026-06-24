@@ -1,1 +1,0 @@
-Let me check the nftables golden configs to determine if port 7070 is externally accessible.
