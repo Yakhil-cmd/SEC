@@ -1,1 +1,0 @@
-Looking at the exact code path and the cryptographic guarantees in place.

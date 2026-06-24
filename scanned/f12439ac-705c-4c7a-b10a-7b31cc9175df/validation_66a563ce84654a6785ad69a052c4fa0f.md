@@ -1,1 +1,0 @@
-Let me look at the `fetch_transaction` function and the NNS governance disburse flow more carefully.
