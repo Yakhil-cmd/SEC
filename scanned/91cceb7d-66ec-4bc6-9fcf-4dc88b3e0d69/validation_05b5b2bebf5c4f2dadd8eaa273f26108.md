@@ -1,1 +1,0 @@
-I need to carefully examine the actual code for `maybe_finalize_disburse_maturity`, `can_finalize_disburse_maturity`, and how `is_finalizing_disburse_maturity` is managed in the SNS governance canister.
