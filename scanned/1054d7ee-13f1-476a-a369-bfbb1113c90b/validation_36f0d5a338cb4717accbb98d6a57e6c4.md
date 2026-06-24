@@ -1,1 +1,0 @@
-Let me read the validate_manifest function and how the root hash is computed to verify the critical precondition.
