@@ -1,1 +1,0 @@
-Let me look at the node rewards canister and other fund distribution patterns more carefully.
