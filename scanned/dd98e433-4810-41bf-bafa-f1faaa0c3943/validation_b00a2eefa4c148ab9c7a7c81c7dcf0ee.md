@@ -1,1 +1,0 @@
-Looking at the `settle_neurons_fund_participation` authorization logic and the cross-swap settlement design, let me check the `mint_to_sns_governance` function and whether the `sns_governance_canister_id` from the request is validated against the proposal data.
