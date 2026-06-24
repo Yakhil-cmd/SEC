@@ -1,1 +1,0 @@
-Let me examine the relevant code to evaluate this exploit claim.
