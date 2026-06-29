@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/map_fp_to_g1.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf2906c0-02ec-4af0-a9d6-1a7ca0746efa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/mod.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6573f2e5-8a93-4a4d-b9e4-e5f621b55367?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/pairing_check.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_22f357a9-c3f3-4001-bb0f-86d847dc9dc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/hash.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_546cdea4-6fc3-47e4-b3bc-f74f55a9f587?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/identity.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f0e4025-4382-4858-bf70-d03a4cf90de4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/lib.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12a47347-2855-4a3e-8fdf-2b7d95868ae1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/modexp.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8d80c60-19b7-4a67-8001-0a6e991b8867?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/native.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf694807-4df4-41a0-a355-30589f656cf9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/prelude.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9405ab4e-ce8d-4119-bf5d-872d5865c031?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/prepaid_gas.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a3ca9485-8249-41cd-a295-628024267396?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/promise_result.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b17bd516-5b47-484b-bbe5-59ea115bf76e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/random.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5a0b6f8-ca2e-4e49-a2b0-722daed4a6ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/secp256k1.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc4c09ad-c82e-47e9-be96-6f6742a88f7e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/secp256r1.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46bd4913-d858-49f8-a8ad-6aa0e729d05e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/utils.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_241c803e-d70a-463d-9515-b6170d4b80d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/xcc.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b32b277f-9217-46ff-9d72-839ef6bb4a90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/base64.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca97a6ba-5a9a-4f14-84e1-070e6747e69d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/contract.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f173a29-61c2-444a-aeb2-848618067691?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/contract/exports.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ecf4e81-673c-4108-8a9f-0528ded315de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/mod.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_61f3b3ab-f83b-4996-9c67-0bc98722da27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/standalone.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b654de71-f0aa-4b75-8ef7-c3ee54376c11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/standalone/g1.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d6c79e8-023a-45dd-9bf2-00090185908b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/standalone/g2.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d414e56-4828-42d1-aaf4-fe5c0760e64a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bls12_381/standalone/utils.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e9cd63e-c5ad-457d-8b86-8de644aded6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-sdk/src/bn128.rs -> Scope: Critical. Permanent freezing of funds'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbec344b-3ad6-4706-899f-f3e4468e841c?mode=deep",
+    "questions_generated": false
+  }
+]
