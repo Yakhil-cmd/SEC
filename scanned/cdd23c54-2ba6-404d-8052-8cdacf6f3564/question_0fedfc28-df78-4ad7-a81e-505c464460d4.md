@@ -1,1 +1,0 @@
-[File: 'engine-transactions/src/eip_2930.rs -> Scope: Critical. Permanent freezing of funds'] [Function: Transaction2930::rlp_append (to field encoding)] Can an attacker exploit the fact that to=None is encoded as s.append(&\
