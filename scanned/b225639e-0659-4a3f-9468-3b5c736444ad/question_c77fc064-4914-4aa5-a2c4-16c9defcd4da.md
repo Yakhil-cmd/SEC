@@ -1,0 +1,1 @@
+[File: 'engine-types/src/types/wei.rs -> Scope: High. Theft of unclaimed yield'] [Function: NEP141Wei::Deserialize (line 31-47) accepting arbitrary string-encoded u128] Can an attacker supply a JSON-encoded NEP141Wei value as a string representing a number larger than u128::MAX (e.g., `\

@@ -1,0 +1,1 @@
+[File: 'engine-sdk/src/types.rs -> near_account_to_evm_address'] [Function: near_account_to_evm_address / empty or minimal account ID input] Can an attacker exploit the deterministic output of near_account_to_evm_address(b\
