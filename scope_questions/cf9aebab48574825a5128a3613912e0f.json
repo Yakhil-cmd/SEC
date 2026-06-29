@@ -1,0 +1,127 @@
+[
+  {
+    "question": "'File Name: engine/src/accounting.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9127bb6-8eb8-4fa7-b307-9eeb7107d1f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/admin.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8233ffe-073f-4edc-90ef-b46333687916?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/connector.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83f56d8f-900b-4390-b510-8ee5a2d29bc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/evm_transactions.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4889fe0-8580-4e31-97af-d98d6d6cf977?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/mod.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6312e7d-66bc-4767-b177-c90169adac1e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/silo/mod.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92ee852c-b0ef-453b-9d2f-5d135ce21826?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/silo/whitelist.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_481bda76-ae59-4f71-9de7-1f43adc9ceda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/contract_methods/xcc.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd61ac2d-f8f4-456f-ace1-32c5bab9ea56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/engine.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5cfde29f-cafb-4d54-b3e1-06faacf6944e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/errors.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53a1f804-05c2-4210-8964-9891fc1f4ad9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/hashchain.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99f3524f-7f67-4716-8709-a41e3f9ce147?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/lib.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f22c2cf0-8148-45dd-b3ca-165ac3dde673?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/map.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4cf1bb16-dbc3-49fb-93dd-63e3aff83681?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/pausables.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b1245ed-b2fa-4092-8e49-feb05f28ba28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/prelude.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_acb0d367-86b8-4ed9-b511-5c4cc70b5d1d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/state.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_958bf23e-266e-4584-990a-37bce50e89cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine/src/xcc.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6e105af-0d2c-4424-922d-3393c06857a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/account_ids.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8088467d-270d-416b-8bcd-5324da92f8f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/alt_bn256.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce9b96c2-5375-48f6-8ce1-1d032a20dae8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/blake2.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b6321ed9-28d9-4690-8ae1-a849aad18a15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/g1_add.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a796c00-a80a-4c2f-ab31-c111584c0142?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/g1_msm.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b461df7-ca04-4f2d-a326-88a79241f876?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/g2_add.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af042744-add0-4a1d-8aa8-fc22dad9ec24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/g2_msm.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f185ef7e-a8b4-4d64-8036-e8c5e524b133?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: engine-precompiles/src/bls12_381/map_fp2_to_g2.rs -> Scope: Critical. Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc4243dc-edbb-40af-9136-4cbbce22fe7d?mode=deep",
+    "questions_generated": false
+  }
+]
