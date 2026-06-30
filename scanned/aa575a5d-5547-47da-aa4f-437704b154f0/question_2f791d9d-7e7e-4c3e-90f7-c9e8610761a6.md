@@ -1,0 +1,1 @@
+[File: 'model/messages/dkg.go -> Scope: Critical. Protocol-layer vulnerability originating from an unstaked Access or Observer node that alters existing data in execution-node or consensus-node databases'] [Function: Broker.Poll / Broker.verifyBroadcastMessage / BroadcastDKGMessage.NodeID json:\

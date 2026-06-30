@@ -1,0 +1,1 @@
+[File: 'model/messages/dkg.go -> Scope: Critical. Flow EVM or cross-VM asset handling vulnerability causing theft, loss, permanent lock, escrow mis-accounting, entitlement bypass, or resource duplication for standards-compliant bridged assets'] [Function: BroadcastDKGMessage.NodeID json:\

@@ -1,0 +1,1 @@
+[File: 'engine/access/rest/experimental/handler.go -> Scope: Critical. Execution-layer vulnerability causing unauthorized account manipulation or unauthorized mutation of another user account state'] [Function: request/get_account_transactions.go:parseAccountTransactionCursor] Can an attacker submit a cursor where both BlockHeight and TransactionIndex are zero (e.g. base64('{\
