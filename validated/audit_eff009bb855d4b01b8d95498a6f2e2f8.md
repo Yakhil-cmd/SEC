@@ -1,0 +1,1 @@
+I need to trace the exact code path for ExitFatal through `submit_with_alt_modexp`, specifically what happens to gas and nonce after a fatal EVM error.
