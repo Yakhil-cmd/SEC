@@ -1,1 +1,0 @@
-Let me read the exact ordering of operations around lines 1100-1115 and the refund call site to confirm the full execution path.

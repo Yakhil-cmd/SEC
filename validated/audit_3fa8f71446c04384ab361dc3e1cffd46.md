@@ -1,1 +1,0 @@
-Looking at the vulnerability class from the external report — **tokens burned/destroyed before the corresponding asset transfer is confirmed, with no protection against failure** — I need to map this to Aurora Engine's bridge/connector components.

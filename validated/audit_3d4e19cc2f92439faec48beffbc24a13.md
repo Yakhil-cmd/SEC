@@ -1,1 +1,0 @@
-After thorough investigation of the Aurora Engine codebase, I need to trace the analog of the "leftover tokens stuck after a partial swap/transfer" vulnerability class into Aurora's token bridge and exit precompile logic.

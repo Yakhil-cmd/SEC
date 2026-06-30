@@ -1,1 +1,0 @@
-Let me look at the full `submit` function in engine.rs to understand how the relayer address is used in the gas reward path.

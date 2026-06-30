@@ -1,1 +1,0 @@
-Looking at the vulnerability class — **silent failure returning a misleading success state instead of an error** — I need to find an analog in Aurora Engine where a callback or function silently returns success when it should fail, causing fund loss.

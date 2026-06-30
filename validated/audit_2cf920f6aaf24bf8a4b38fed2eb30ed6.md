@@ -1,1 +1,0 @@
-Let me look at the `parse_amount` function body and the MIN/MAX input size constants to complete the analysis.
