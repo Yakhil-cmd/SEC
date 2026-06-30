@@ -1,0 +1,1 @@
+Looking at the vulnerability class (gas/fee-accounting bug where a user-controlled address can block or grief a critical protocol operation), I need to find an analog in Aurora Engine where a user-controlled EVM address receives an ETH call with unbounded gas during a protocol-critical callback.
