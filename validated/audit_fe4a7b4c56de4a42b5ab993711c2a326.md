@@ -1,0 +1,1 @@
+Looking at the vulnerability class — **connector/bridge accounting bug** where a contract performs an irreversible state change before confirming the external call succeeded — I need to find the same pattern in Aurora Engine's production files.
