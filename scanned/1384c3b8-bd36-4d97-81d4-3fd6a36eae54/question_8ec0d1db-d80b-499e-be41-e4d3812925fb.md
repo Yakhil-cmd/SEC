@@ -1,1 +1,0 @@
-[File: 'module/state_synchronization/requester/jobs/jobs.go'] [Function: BlockEntryJob.ID() / Consumer.NotifyJobIsDone] Can a malicious unstaked Access/Observer node serve two different blobs for two different sealed heights H1 and H2 such that both blobs' inner BlockID fields are crafted to produce the same jobqueue.JobID string (via fmt.Sprintf(\

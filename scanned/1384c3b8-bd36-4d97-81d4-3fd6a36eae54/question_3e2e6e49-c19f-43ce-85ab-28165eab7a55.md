@@ -1,1 +1,0 @@
-[File: 'module/state_synchronization/requester/jobs/jobs.go'] [Function: BlockEntryJob.ID() collision via jobqueue.JobID(blockID)] Can a malicious unstaked Access/Observer node exploit the fact that jobqueue.JobID formats the block ID as fmt.Sprintf(\
