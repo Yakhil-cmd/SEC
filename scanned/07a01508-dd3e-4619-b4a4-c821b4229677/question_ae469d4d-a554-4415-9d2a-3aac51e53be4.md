@@ -1,1 +1,0 @@
-[File: 'module/dkg/state.go -> Scope: Critical. Execution-layer vulnerability circumventing Cadence/FVM/EVM resource semantics, including unauthorized resource construction, duplication, destruction, or use-after-destruction'] [Function: Controller.Run / Manager.GetState] Can a data race on the unguarded read of c.state at controller.go line 105 (c.log.Debug().Msgf(\
