@@ -1,1 +1,0 @@
-[File: 'engine/access/rest/router/router.go -> Scope: Critical. Protocol-layer vulnerability originating from an unstaked Access or Observer node that alters existing data in execution-node or consensus-node databases'] [Function: NewServer / cors.New / RouterBuilder.Build] Can an attacker operating a malicious web page exploit the wildcard CORS policy (AllowedOrigins: []string{\
