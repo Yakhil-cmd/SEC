@@ -1,1 +1,0 @@
-[File: 'engine/access/state_stream/backend/handler.go -> Scope: Critical. Execution-layer vulnerability causing unauthorized account manipulation or unauthorized mutation of another user account state'] [Function: SubscribeAccountStatusesFromStartBlockID + NewAccountStatusFilter address validation] Can an attacker under the precondition of providing accountAddresses=[\
