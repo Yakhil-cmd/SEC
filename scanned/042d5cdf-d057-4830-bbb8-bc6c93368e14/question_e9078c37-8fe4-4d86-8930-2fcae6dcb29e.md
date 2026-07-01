@@ -1,1 +1,0 @@
-[File: 'engine/access/rest/experimental/request/cursor_transfer.go'] [Function: ParseTransferCursor -> json.Unmarshal with number precision] Can an attacker supply a JSON cursor payload where the BlockHeight value is encoded as a floating-point number (e.g., {\
